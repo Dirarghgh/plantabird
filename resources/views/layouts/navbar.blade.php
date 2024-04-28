@@ -15,13 +15,13 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
+                            <li class="nav-item {{ request()->path() === '/' ? 'active ' : '' }}">
                                 <a class="nav-link" href="/">Accuil</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item {{ request()->path() === 'products' ? 'active ' : '' }}">
                                 <a class="nav-link" href="/products">Produits</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item {{ request()->path() === 'about' ? 'active ' : '' }}">
                                 <a class="nav-link" href="/about">À Propos</a>
                             </li>
                             <!-- <li class="nav-item dropdown">
@@ -29,22 +29,22 @@
                                     aria-expanded="false"> Pages </a>
                                 <div class="dropdown-menu drop-down-content">
                                     <ul class="list-unstyled drop-down-pages">
-                                        <li class="nav-item">
+                                        <li class="nav-item {{ request()->path() === 'home' ? 'active ' : '' }}">
                                             <a class="dropdown-item nav-link" href="./cart.html">Cart</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item {{ request()->path() === 'home' ? 'active ' : '' }}">
                                             <a class="dropdown-item nav-link" href="./checkout.html">Checkout</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item {{ request()->path() === 'home' ? 'active ' : '' }}">
                                             <a class="dropdown-item nav-link" href="./shop.html">Our Shop</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li> -->
-                            <li class="nav-item">
+                            <li class="nav-item {{ request()->path() === 'faq' ? 'active ' : '' }}">
                                 <a class="nav-link" href="faq">FAQ</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item {{ request()->path() === 'pdv' ? 'active ' : '' }}">
                                 <a class="nav-link" href="/pdv">Points de vente</a>
                             </li>
                                 <div class="switch">
@@ -54,7 +54,7 @@
                                     <span class="off">عر</span>
                                 </div>
                             <li class="nav-item">
-                                <a class="nav-link default-btn contact_us" href="/contacts">Contact Us</a>
+                                <a class="nav-link default-btn contact_us" href="/contacts">Contacts</a>
                             </li>
                         </ul>
                         <div class="outer_div">

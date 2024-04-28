@@ -62,23 +62,25 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12 col-12 order-md-1 order-2">
                         <figure class="newsletter_image mb-0 position-absolute">
-                            <img src="./assets/images/newsletter_image.png" alt="" class="img-fluid">
+                            <img src="./assets/images/designs/2.png" alt="" class="img-fluid">
                         </figure>
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-12 col-12 order-md-2 order-1">
                         <div class="newsletter_content">
-                            <h6>Newsletter</h6>
-                            <h2>Subscribe To Our Newsletter</h2>
-                            <form method="POST">
-                                <div class="form-row">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <input type="email" name="email" id="emailadd" class="form-control" placeholder="Enter Your Email:">
-                                        <div class="input-group-append form-button">
-                                            <button class="default-btn" name="btnsubmit" id="submitbtn" type="submit">Subscribe Now</button>
-                                        </div>
+                            <h6>Contactez-nous maintenant</h6>
+                            <h2>Pour les commandes et demandes de renseignements</h2>
+                            <div class="form-row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="input-group-append form-button">
+                                        <button class="default-btn" name="btnsubmit" id="submitbtn" type="submit">Contactez-nous</button>
+                                    </div>
+                                    <div class="outer_div_footer">
+                                        <figure class="mb-0">
+                                            <img src="./assets/images/navbar_call_image.png" alt="" class="img-fluid hover-effect">
+                                        </figure>
                                     </div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -87,10 +89,10 @@
                 </figure>
             </div>
             <figure class="newsletter_purple_foot mb-0 position-absolute top_bottom_shape">
-                <img src="./assets/images/newsletter_purple_foot.png" alt="" class="img-fluid">
+                <img src="./assets/images/birds/12.png" alt="" class="img-fluid">
             </figure>
             <figure class="newsletter_green_foot mb-0 position-absolute top_bottom_shape">
-                <img src="./assets/images/newsletter_green_foot.png" alt="" class="img-fluid">
+                <img src="./assets/images/birds/14.png" alt="" class="img-fluid">
             </figure>
         </div>
     </div>
@@ -104,39 +106,39 @@
                     <div class="about_col">
                         <a href="./index.html">
                             <figure>
-                                <img src="./assets/images/footer_logo.png" alt="" class="img-fluid">
+                                <img src="./assets/images/favicon/logo_t.png" alt="" class="img-fluid">
                             </figure>
                         </a>
-                        <p>Tristirue nulla aliquet enim tortor at auctor urna nunc massa enim nec dui nunc mattis enim ut tellus perspicia aute irure repreaen ...</p>
+                        <p> &nbsp; &nbsp; &nbsp;Nous sommes en permanence à la recherche de nouvelles solutions scientifiques naturelles en réponse aux problématique des éleveurs des petits oiseaux. Notre veille technologique et réglementaire est mobilisée pour apporter des résultats probants à nos utilisateurs</p>
                         <div class="headphone_wrapper">
                             <figure class="mb-0">
                                 <img src="./assets/images/footer_headphone.png" alt="" class="img-fluid">
                             </figure>
                             <div class="headphone_content">
-                                <a href="tel:+568925896325" class="text-decoration-none d-block">+5689 2589 6325</a>
-                                <span>Got Questions? Call us 24/7</span>
+                                <a href="tel:+568925896325" class="text-decoration-none d-block">+213 770 07 61 67</a>
+                                <span>Vous avez des questions ? Appelez-nous 24/7</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 col-12 d-lg-block d-none">
                     <div class="hours_col">
-                        <h3>Working Hours</h3>
+                        <h3>Heures d'ouverture</h3>
                         <ul class="list-unstyled">
                             <li>
-                                <p>Monday – Saturday</p>
+                                <p>Lundi  – Samedi </p>
                             </li>
                             <li>
                                 <span>12:00 pm – 14:45 pm</span>
                             </li>
                             <li>
-                                <p>Sunday – Thursday</p>
+                                <p>Dimanche  – Jeudi </p>
                             </li>
                             <li>
                                 <span>17.30 pm – 00.00 am</span>
                             </li>
                             <li>
-                                <p>Friday – Saturday</p>
+                                <p>Vendredi  – Samedi </p>
                             </li>
                             <li>
                                 <span>17.30 pm – 00.00 am</span>
@@ -150,52 +152,48 @@
                         <ul class="list-unstyled">
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <a href="./index.html">Home</a>
+                                <a href="./index.html">Accuil</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <a href="./about.html">About us</a>
+                                <a href="./about.html">Produits</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <a href="./services.html">Services</a>
+                                <a href="./services.html">À Propos</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <a href="./shop.html">Our Shop</a>
+                                <a href="./shop.html">FAQ</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <a href="./packages.html">Packages</a>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-angle-right"></i>
-                                <a href="./gallery.html">Gallery</a>
+                                <a href="./packages.html">Points de vente</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-sm-block d-none">
                     <div class="contact_col">
-                        <h3>Contact Us</h3>
+                        <h3>Contactez-nous</h3>
                         <ul class="list-unstyled">
                             <li>
-                                <p>Address:</p>
+                                <p>Adresse:</p>
                             </li>
                             <li>
-                                <span>121 King Street Melbourne, 3000, Australia</span>
+                                <span>Rue Ahmed Boukhlef, 16045, Birtouta</span>
                             </li>
                             <li>
                                 <p>Email:</p>
                             </li>
                             <li class="mail">
-                                <a href="mailto:info@pawshpetcare.com" class="text-decoration-none">info@pawshpetcare.com</a>
+                                <a href="mailto:info@pawshpetcare.com" class="text-decoration-none">Plantabird@gmail.com</a>
                             </li>
                         </ul>
                         <ul class="list-unstyled">
-                            <li class="icons"><a href="#"><i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i></a></li>
-                            <li class="icons"><a href="#"><i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i></a></li>
-                            <li class="icons"><a href="#"><i class="fa-brands fa-instagram mr-0 hover-effect" aria-hidden="true"></i></a></li>
+                            <li class="icons"><a href="https://www.facebook.com/profile.php?id=61555825628635"><i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i></a></li>
+                            <li class="icons"><a href="https://www.facebook.com/profile.php?id=61555825628635"><i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i></a></li>
+                            <li class="icons"><a href="https://www.facebook.com/profile.php?id=61555825628635"><i class="fa-brands fa-instagram mr-0 hover-effect" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -205,11 +203,9 @@
     <div class="bottom-portion">
         <div class="col-12"> 
             <div class="copyright">
-                <p>Copyright © 2023 pawshpetcare All rights reserved.</p>
+                <p>Copyright © - {{ date('Y') }} by <a class="text-white" href="https://sadeeminfo.com/"> Sadeem informatique</a> All rights reserved.</p>
             </div>
         </div>
     </div>
-    <figure class="mb-0 footer_right_shape position-absolute top_bottom_shape">
-        <img src="./assets/images/footer_right_shape.png" alt="" class="img-fluid">
-    </figure>
+   
 </section>

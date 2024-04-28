@@ -363,12 +363,15 @@ html{
 .banner-section-outer .banner-section .banner-section-image .vaccination_box {
     bottom: 205px;
     left: 95px;
+    display: flex;
 }
 .banner-section-outer .banner-section .banner-section-image .pet_training_box {
     bottom: 290px;
     padding: 12px 35px 12px 25px;
     right: 115px;
     border-radius: 36px;
+    display: flex;
+
 }
 .banner-section-outer .banner-section .banner_left_shape {
     bottom: 30px;
@@ -384,27 +387,19 @@ html{
 .banner-section-outer .banner-section .banner-section-image .satisfied_client_box {
     top: 290px;
     left: 25px;
-    padding: 10px 18px 10px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.banner-section-outer .banner-section .banner-section-image .satisfied_client_box .image_wrapper {
-    float: left;
-}
-.banner-section-outer .banner-section .banner-section-image .satisfied_client_box .image_wrapper figure {
-    padding-top: 0;
-    position: relative;
-}
-.banner-section-outer .banner-section .banner-section-image .satisfied_client_box .image_wrapper .satisfied_client2 {
-    left: -25px;
-    top: 0;
-}
-.banner-section-outer .banner-section .banner-section-image .satisfied_client_box .image_wrapper .satisfied_client3 {
-    left: -50px;
-    top: 0;
-}
-.banner-section-outer .banner-section .banner-section-image .satisfied_client_box .box_content_wrapper {
-    padding-left: 0;
-    margin-left: -42px;
-    padding-top: 3px;
+.icon-container-rounded{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: var(--e-global-color-accent); 
+    color: #fff;
+    border-radius: 100%;
 }
 .banner-section-outer .banner-section .banner-section-image .satisfied_client_box .box_content_wrapper .box_heading {
     display: inline-block;
@@ -659,7 +654,9 @@ html{
 .about_section .about_images_wrapper .about_left_box_wrapper {
     background-color: var(--e-global-color-lime-green);
     border-radius: 56px;
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     position: absolute;
     bottom: 38px;
     left: -58px;
@@ -673,7 +670,7 @@ html{
 }
 .about_section .about_images_wrapper .about_left_box_wrapper figure {
     float: left;
-    padding-top: 10px;
+    padding-top: 10px 0;
     width: 25%;
 }
 .about_section .about_images_wrapper .about_left_box_wrapper .left_box_content {
@@ -681,9 +678,9 @@ html{
     float: right;
     width: 75%;
 }
-.about_section .about_images_wrapper .about_left_box_wrapper .left_box_content span {
-    font-size: 40px;
-    line-height: 42px;
+.about_section .about_images_wrapper .about_left_box_wrapper  span {
+    font-size: 28px;
+    line-height: 50px;
     font-weight: 700;
     font-family: 'Archivo', sans-serif;
     color: var(--e-global-color-white);
@@ -838,6 +835,7 @@ html{
 }
 .store_section .store_box .store_box_content .price_cart_wrapper .cart {
     background-color: var(--e-global-color-primary);
+    color :#fff;
     border-radius: 100px;
     height: 45px;
     width: 45px;
@@ -846,7 +844,7 @@ html{
     position: absolute;
     top: -15px;
     right: 0;
-    padding: 10px;
+    
     transition: all 0.3s ease-in-out;
 }
 .store_section .store_box:hover {
@@ -1523,7 +1521,7 @@ html{
     }
 }
 .newsletter_section .newsletter_box .newsletter_content {
-    padding: 90px 50px 97px 82px;
+    padding: 90px 50px 0px 82px;
 }
 .newsletter_section .newsletter_box .newsletter_content h6 {
     letter-spacing: 2.6px;
@@ -1773,6 +1771,13 @@ html{
     line-height: 20px;
     margin: 0;
 }
+.copyright a{
+    color: var(--e-global-color-grayish-violet);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
 .footer-section .footer_right_shape {
     top: 100px;
     right: 0;
@@ -1874,12 +1879,15 @@ html{
     text-align: center;
 }
 .mission_section .mission_box figure {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 123px;
     width: 123px;
     line-height: 123px;
     border-radius: 100px;
     margin-bottom: 30px;
+    margin-left: 60px;
     background-color: var(--e-global-color-white);
     transition: all 0.3s ease-in-out;
 }
@@ -3761,9 +3769,25 @@ input[type="number"]::-webkit-calendar-picker-indicator {
     transition: margin 0.2s;
   }
   
-  input.check-toggle-round-flat:checked + label {
-  }
-  
   input.check-toggle-round-flat:checked + label:after {
     margin-left: 44px;
+  }
+  .about-span-green{
+    color: #8cc63f;
+  }
+  .mession-icons{
+    color: #8cc63f;
+  }
+  .outer_div_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 72px;
+    line-height: 72px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    background-color: var(--e-global-color-white);
+    transition: all 0.3s ease-in-out;
   }
