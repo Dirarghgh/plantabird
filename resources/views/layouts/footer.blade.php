@@ -62,7 +62,7 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12 col-12 order-md-1 order-2">
                         <figure class="newsletter_image mb-0 position-absolute">
-                            <img src="./assets/images/designs/2.png" alt="" class="img-fluid">
+                            <img src="./assets/images/designs/8.png" alt="" class="img-fluid">
                         </figure>
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-12 col-12 order-md-2 order-1">

@@ -8,8 +8,8 @@
 
                 <div class="col-lg-5 col-md-12 col-sm-12 col-12 text-lg-left text-center">
                     <div class="banner-section-content">
-                        <h1 data-aos="fade-up">La santé de votre oiseau <span></span> est notre priorité.</h1>
-                        <p data-aos="fade-right">&nbsp; &nbsp; &nbsp;Nos produits offrent une solution pour soutenir la santé et le bien-être des petits oiseaux . Nous proposons une gamme de complément alimentaire naturels , Chaque produit est fabriqué à partir des extraits des plantes, garantissant une qualité optimale, afin de préserver la santé des oiseaux.</p>
+                        <h1 data-aos="fade-up">La santé de votre <span></span> est notre priorité.</h1>
+                        <p data-aos="fade-right">&nbsp; &nbsp; &nbsp;Nos produits offrent une solution pour soutenir la santé et le bien-être des petits oiseaux . Nous proposons une gamme de complément alimentaire naturels.</p>
                         <div class="btn_wrapper" data-aos="fade-up">
                             <a class="text-decoration-none default-btn" href="./about.html">En savoir plus</a>
                         </div>
@@ -21,7 +21,7 @@
                 <div class="col-lg-7 col-md-12 col-sm-12 col-12">
                     <div class="banner-section-image position-relative">
                         <figure class="banner-image mb-0 left_right_shape">
-                            <img src="./assets/images/designs/6.png" alt="" class="img-fluid">
+                            <img src="./assets/images/designs/2.png" alt="" class="img-fluid">
                         </figure> 
                         <figure class="banner-background-image mb-0 position-absolute">
                             <img src="./assets/images/banner_image_background.png" alt="" class="img-fluid">
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <figure class="banner_left_shape mb-0 position-absolute top_bottom_shape">
-                <img src="./assets/images/birds/9.png" alt="" class="img-fluid">
+                <img src="./assets/images/birds/bird300/2.png" alt="" class="img-fluid">
             </figure>
             <figure class="banner_right_shape mb-0 position-absolute top_bottom_shape">
                 <img src="./assets/images/birds/10.png" alt="" class="img-fluid">
@@ -95,19 +95,10 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>CLOSTRI</h5>
-                                                <p class="text-size-16">Antioxydant digestif.</p>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <span>4.9/5</span>
+                                                <p class="text-size-16 text-no-wrap">Antioxydant digestif.</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <div class="price_wrapper">
-                                                <span class="dollar">DZD</span>
-                                                <span class="counter">600</span>
-                                                <span>.00</span>
-                                            </div>
                                             <a href="/product-details">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
@@ -128,19 +119,10 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>COLIBA</h5>
-                                                <p class="text-size-16">Antioxydant digestif</p>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <span>4.9/5</span>
+                                                <p class="text-size-16 text-no-wrap">Antioxydant digestif</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <div class="price_wrapper">
-                                                <span class="dollar">DZD</span>
-                                                <span class="counter">800</span>
-                                                <span>.00</span>
-                                            </div>
                                             <a href="/product-details">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
@@ -161,19 +143,10 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>COXI</h5>
-                                                <p class="text-size-16">Antioxydant digestif</p>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <span>4.9/5</span>
+                                                <p class="text-size-16 text-no-wrap">Antioxydant digestif.</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <div class="price_wrapper">
-                                                <span class="dollar">DZD</span>
-                                                <span class="counter">900</span>
-                                                <span>.00</span>
-                                            </div>
                                             <a href="/product-details">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
@@ -194,19 +167,10 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>HEPA</h5>
-                                                <p class="text-size-16">Antioxydant hepatique</p>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <span>4.9/5</span>
+                                                <p class="text-size-16 text-no-wrap">Antioxydant hepatique.</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <div class="price_wrapper">
-                                                <span class="dollar">DZD</span>
-                                                <span class="counter">1200</span>
-                                                <span>.00</span>
-                                            </div>
                                             <a href="/product-details">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
@@ -227,19 +191,10 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>PULMO</h5>
-                                                <p class="text-size-16">Antioxydant pulmonaire</p>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <span>4.9/5</span>
+                                                <p class="text-size-16 text-no-wrap">Antioxydant pulmonaire.</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <div class="price_wrapper">
-                                                <span class="dollar">DZD</span>
-                                                <span class="counter">600</span>
-                                                <span>.00</span>
-                                            </div>
                                             <a href="/product-details">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
@@ -260,19 +215,10 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>TRICHOM</h5>
-                                                <p class="text-size-16">Antioxydant digestif</p>
-                                            </div>
-                                            <div class="rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <span>4.9/5</span>
+                                                <p class="text-size-16 text-no-wrap">Antioxydant digestif.</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <div class="price_wrapper">
-                                                <span class="dollar">DZD</span>
-                                                <span class="counter">800</span>
-                                                <span>.00</span>
-                                            </div>
                                             <a href="/product-details">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
@@ -300,51 +246,12 @@
 </section>
 
 <!-- ABOUT SECTION -->
-<section class="about_section position-relative">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 col-md-12 col-sm-12 col-12">
-                <div class="about_images_wrapper position-relative">
-                    <figure class="mb-0 about_main_image">
-                        <img src="./assets/images/designs/14.png" alt="" class="img-fluid">
-                    </figure>
-                    <figure class="mb-0 about_left_image position-absolute">
-                        <img src="./assets/images/designs/13.jpg" alt="" class="img-fluid">
-                    </figure>
-                    <div class="about_left_box_wrapper">
-                        <figure class="mb-0">
-                            <img src="./assets/images/about_left_box_image.png" alt="" class="img-fluid hover-effect">
-                        </figure>
-                        <span class="fw-bold mb-0">Depuis 2014</span>
-                    </div>
-                    <figure class="mb-0 about_foot_shape position-absolute top_bottom_shape">
-                        <img src="./assets/images/birds/5.png" alt="" class="img-fluid">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-12 col-sm-12 col-12">
-                <div class="about_content" data-aos="fade-right">
-                    <h6>QUI SOMMES NOUS ?</h6>
-                    <h2>Depuis son implantation en Algérie en 2014, </h2>
-                    <p class="text-size-18 about_first_p">la société PLANTAXION s’est donné comme objectif de devenir un acteur important dans la lutte contre les phénomènes d'antibiorésistances en santé animale. </p>
-                    <p class="text-size-18"><span class="about-span-green"> PLANTABIRD </span> est une filière de PLANTAXION qui offre une gamme de produits phytogéniques destinés pour les petits oiseaux </p>
-                    <div class="btn_wrapper">
-                        <a class="text-decoration-none default-btn" href="about">En savoir plus</a>
-                    </div>
-                    <figure class="mb-0 about_content_shape position-absolute left_right_shape">
-                        <img src="./assets/images/about_content_shape.png" alt="" class="img-fluid">
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <figure class="mb-0 about_left_shape position-absolute top_bottom_shape">
-            <img src="./assets/images/about_left_shape.png" alt="" class="img-fluid">
-        </figure>
-        <figure class="mb-0 about_right_shape position-absolute top_bottom_shape">
-            <img src="./assets/images/birds/bird200/2.png" alt="" class="img-fluid">
-        </figure>
-    </div>
-</section>
+
+@include('sections.aboutSection' , ['button' => true])
+
+<!-- CHOOSE US SECTION -->
+
+@include('sections.offreSection', ['button' => true] )
 
 <!-- OUR MISSION SECTION -->
 <section class="mission_section position-relative" id="video_section">
@@ -433,7 +340,7 @@
                     <h2>Nous sommes prêts à répondre à vos questions</h2>
                     <p class="text-size-18">&nbsp; &nbsp; &nbsp; Nous comprenons l'importance de maintenir la santé et le bien-être de vos précieux compagnons à plumes. Cette section FAQ vise à répondre à vos questions les plus fréquentes concernant les médicaments pour oiseaux, afin de vous aider à prendre soin de vos amis à plumes de la meilleure façon possible. </p>
                     <div class="btn_wrapper">
-                        <a class="text-decoration-none default-btn" href="./contact.html">Contactez-nous</a>
+                        <a class="text-decoration-none default-btn" href="contact">Contactez-nous</a>
                     </div>
                     <figure class="mb-0 faq_content_shape position-absolute left_right_shape">
                         <img src="./assets/images/faq_content_shape.png" alt="" class="img-fluid">
@@ -525,8 +432,8 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                 <div class="team_box">
                     <figure><img src="./assets/images/point_de_vente.jpg" alt="" class="img-fluid"></figure>
-                    <h3>Bouira</h3>
-                    <p class="text-size-18">Cité des 2000 logements</p>
+                    <h3>Pet Shop</h3>
+                    <p class="text-size-18">Cité des 2000 logements, Bouira.</p>
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
@@ -543,8 +450,8 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                 <div class="team_box">
                     <figure><img src="./assets/images/point_de_vente.jpg" alt="" class="img-fluid"></figure>
-                    <h3>Alger</h3>
-                    <p class="text-size-18">Rue Ahmed Boukhlef, Birtouta</p>
+                    <h3>Pet Shop</h3>
+                    <p class="text-size-18">Rue Ahmed Boukhlef, Birtouta, Alger.</p>
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
@@ -561,8 +468,8 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                 <div class="team_box">
                     <figure><img src="./assets/images/point_de_vente.jpg" alt="" class="img-fluid"></figure>
-                    <h3>Oran</h3>
-                    <p class="text-size-18">Cité Les Amandiers </p>
+                    <h3>Pet Shop</h3>
+                    <p class="text-size-18">Cité Les Amandiers, Oran.</p>
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
@@ -579,5 +486,8 @@
         </div>
     </div>
 </section>
+
+<!-- TESTIMONIALS SECTION -->
+@include('sections.testimonialsSection' )
 
  @endsection 
