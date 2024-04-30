@@ -48,7 +48,7 @@
                                 <a class="nav-link" href="/about">À Propos</a>
                             </li>
                             <li class="nav-item {{ request()->path() === 'faq' ? 'active ' : '' }}">
-                                <a class="nav-link" href="/#faq">FAQ</a>
+                                <a class="nav-link" href="/faq">FAQ</a>
                             </li>
                             <li class="nav-item {{ request()->path() === 'pdv' ? 'active ' : '' }}">
                                 <a class="nav-link" href="/pdv">Points de vente</a>
@@ -63,15 +63,16 @@
                                 <a class="nav-link default-btn contact_us" href="/contact">Contacts</a>
                             </li>
                         </ul>
-                        <div class="outer_div">
-                            <figure class="mb-0">
-                                <img src="./assets/images/navbar_call_image.png" alt="" class="img-fluid hover-effect">
-                            </figure>
+                        <div class="outer_div_footer">
+                            <a href="tel:+213770076167">
+                                <i class="fa-solid fa-phone fa-2x"></i>
+                            </a>
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
     </header>
+    @yield('hero')
 </div>
 <!-- 8cc63f -->

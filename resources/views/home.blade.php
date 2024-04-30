@@ -1,16 +1,13 @@
 @extends('layouts.app')  
-@section('content')   
-<div class="banner-section-outer">
-<!-- BANNER SECTION -->
+@section('hero')
     <section class="banner-section">
         <div class="container-fluid">
             <div class="row">
-
                 <div class="col-lg-5 col-md-12 col-sm-12 col-12 text-lg-left text-center">
                     <div class="banner-section-content">
                         <h1 data-aos="fade-up">La santé de votre <span></span> est notre priorité.</h1>
                         <p data-aos="fade-right">&nbsp; &nbsp; &nbsp;Nos produits offrent une solution pour soutenir la santé et le bien-être des petits oiseaux . Nous proposons une gamme de complément alimentaire naturels.</p>
-                        <div class="btn_wrapper" data-aos="fade-up">
+                        <div class="" data-aos="fade-up">
                             <a class="text-decoration-none default-btn" href="./about.html">En savoir plus</a>
                         </div>
                         <figure class="banner_top_shape mb-0 position-absolute left_right_shape">
@@ -67,7 +64,9 @@
             </figure>
         </div>
     </section>
-</div>
+@endsection
+@section('content')   
+
 <!-- OUR STORE SECTION -->
 <section class="store_section position-relative">
     <div class="container">
@@ -340,7 +339,7 @@
                     <h2>Nous sommes prêts à répondre à vos questions</h2>
                     <p class="text-size-18">&nbsp; &nbsp; &nbsp; Nous comprenons l'importance de maintenir la santé et le bien-être de vos précieux compagnons à plumes. Cette section FAQ vise à répondre à vos questions les plus fréquentes concernant les médicaments pour oiseaux, afin de vous aider à prendre soin de vos amis à plumes de la meilleure façon possible. </p>
                     <div class="btn_wrapper">
-                        <a class="text-decoration-none default-btn" href="contact">Contactez-nous</a>
+                        <a class="text-decoration-none default-btn" href="/faq">En savoir plus</a>
                     </div>
                     <figure class="mb-0 faq_content_shape position-absolute left_right_shape">
                         <img src="./assets/images/faq_content_shape.png" alt="" class="img-fluid">
@@ -352,28 +351,15 @@
                     <div class="accordian-inner" data-aos="fade-up">
                         <div id="accordion1">
                             <div class="accordion-card">
-                                <div class="card-header" id="headingFour">
+                                <div class="card-header" id="headingOne">
                                     <i class="fa-solid fa-question"></i>
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                     Comment puis-je savoir si mon oiseau a besoin de médicaments?
                                     </button>
                                 </div>
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
                                 <div class="card-body">
                                     <p class="text-size-16 text-left mb-0 p-0">Les signes courants de maladie chez les oiseaux incluent un plumage ébouriffé, une perte d'appétit, ou des changements dans leur comportement. Si vous observez l'un de ces signes, consultez un vétérinaire aviaire pour un diagnostic précis.</p>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="accordion-card">
-                                <div class="card-header" id="headingSix">
-                                    <i class="fa-solid fa-question"></i>
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                        Comment administrer les médicaments à mon oiseau?
-                                    </button>
-                                </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix">
-                                <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">L'administration de médicaments aux oiseaux peut varier selon le type de médicament et la taille de l'oiseau. Suivez toujours les instructions du vétérinaire ou lisez attentivement les indications fournies avec le médicament.</p>
                                 </div>
                                 </div>
                             </div>
@@ -381,23 +367,36 @@
                                 <div class="card-header" id="headingTwo">
                                     <i class="fa-solid fa-question"></i>
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Est-ce que vous offrez des conseils sur les soins généraux des oiseaux?
+                                        Comment administrer les médicaments à mon oiseau?
                                     </button>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">Oui, notre équipe est disponible pour fournir des conseils sur la nutrition, l'environnement et d'autres aspects du soin des oiseaux. N'hésitez pas à nous contacter pour toute question.</p>
+                                    <p class="text-size-16 text-left mb-0 p-0">L'administration de médicaments aux oiseaux peut varier selon le type de médicament et la taille de l'oiseau. Suivez toujours les instructions du vétérinaire ou lisez attentivement les indications Onenies avec le médicament.</p>
                                 </div>
                                 </div>
                             </div>
                             <div class="accordion-card">
-                                <div class="card-header" id="headingTen">
+                                <div class="card-header" id="headingTree">
                                     <i class="fa-solid fa-question"></i>
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTree" aria-expanded="false" aria-controls="collapseTree">
+                                        Est-ce que vous offrez des conseils sur les soins généraux des oiseaux?
+                                    </button>
+                                </div>
+                                <div id="collapseTree" class="collapse" aria-labelledby="headingTree">
+                                <div class="card-body">
+                                    <p class="text-size-16 text-left mb-0 p-0">Oui, notre équipe est disponible pour Onenir des conseils sur la nutrition, l'environnement et d'autres aspects du soin des oiseaux. N'hésitez pas à nous contacter pour toute question.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-card">
+                                <div class="card-header" id="headingFour">
+                                    <i class="fa-solid fa-question"></i>
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         Quelles sont vos options de livraison?
                                     </button>
                                 </div>
-                                <div id="collapseTen" class="collapse" aria-labelledby="headingTen">
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
                                 <div class="card-body">
                                     <p class="text-size-16 text-left mb-0 p-0">Nous offrons une variété d'options de livraison pour répondre à vos besoins, y compris la livraison express et standard. Les détails spécifiques sur les frais et les délais de livraison sont disponibles lors du passage à la caisse.</p>
                                 </div>
@@ -416,7 +415,6 @@
         </figure>
     </div>
 </div>
-
 <!-- PDV SECTION -->
 <section class="team_section">
     <div class="container">

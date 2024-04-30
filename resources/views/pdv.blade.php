@@ -7,10 +7,10 @@
                 <div class="col-lg-2 col-md-12 col-sm-12 col-12 d-lg-block d-none"></div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12 text-center">
                     <div class="banner-section-content">
-                        <h1 data-aos="fade-up">À Propos de nous</h1>
-                        <p data-aos="fade-right">"Nous sommes passionnés par les oiseaux et nous nous engageons à fournir les meilleurs produits et conseils pour le bien-être de vos compagnons à plumes."</p>
+                        <h1 data-aos="fade-up">Nos points de vente</h1>
+                        <p data-aos="fade-right">"Explorez nos partenaires de confiance, incluant des animaleries spécialisées, des pharmacies vétérinaires et d'autres revendeurs sélectionnés pour leur engagement envers le bien-être des oiseaux."</p>
                         <div class="btn_wrapper" data-aos="fade-up">
-                            <span>Platntabird </span><span class="slash">/</span><span class="sub_span"> À Propos</span>
+                            <span>Platntabird </span><span class="slash">/</span><span class="sub_span"> Points de vente</span>
                         </div>
                         <figure class="sub_banner_content_top_shape mb-0 position-absolute left_right_shape">
                             <img src="./assets/images/sub_banner_content_top_shape.png" alt="" class="img-fluid">
@@ -34,13 +34,5 @@
 @endsection
 @section('content')
 
-
-@include('sections.aboutSection' , ['button' => false])
-
-<!-- CHOOSE US SECTION -->
-@include('sections.offreSection', ['button' => false] )
-
-<!-- TESTIMONIALS SECTION -->
-@include('sections.testimonialsSection' )
 
 @endsection

@@ -1,6 +1,5 @@
 @extends('layouts.app')
- 
-@section('content')
+@section('hero')
 <div class="sub-banner-section-outer contact-banner-section-outer">
     <!-- SUB BANNER SECTION -->
     <section class="banner-section">
@@ -33,6 +32,8 @@
         </div>
     </section>
 </div>
+@endsection
+@section('content')
 <section class="contact_info_section position-relative">
     <div class="container">
         <div class="row">

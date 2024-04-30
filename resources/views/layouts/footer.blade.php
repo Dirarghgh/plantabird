@@ -70,14 +70,21 @@
                             <h6>Contactez-nous maintenant</h6>
                             <h2>Pour les commandes et demandes de renseignements</h2>
                             <div class="form-row">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="input-group-append form-button">
-                                        <button class="default-btn" name="btnsubmit" id="submitbtn" type="submit">Contactez-nous</button>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-footer-container">
+                                    <div>
+                                        <a href="">
+                                            <a class="nav-link default-btn contact_us" href="/contact">Contactez-nous</a>
+                                        </a>
                                     </div>
                                     <div class="outer_div_footer">
-                                        <figure class="mb-0">
-                                            <img src="./assets/images/navbar_call_image.png" alt="" class="img-fluid hover-effect">
-                                        </figure>
+                                        <a href="tel:+213770076167">
+                                        <i class="fa-solid fa-phone fa-2x"></i>
+                                        </a>
+                                    </div>
+                                    <div class="outer_div_footer">
+                                        <a href="mailto:Plantabird@gmail.com">
+                                        <i class="fa-solid fa-at fa-2x"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +122,7 @@
                                 <img src="./assets/images/footer_headphone.png" alt="" class="img-fluid">
                             </figure>
                             <div class="headphone_content">
-                                <a href="tel:+568925896325" class="text-decoration-none d-block">+213 770 07 61 67</a>
+                                <a href="tel:+213770076167" class="text-decoration-none d-block">+213 770 07 61 67</a>
                                 <span>Vous avez des questions ? Appelez-nous 24/7</span>
                             </div>
                         </div>
@@ -146,23 +153,23 @@
                         <ul class="list-unstyled">
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <a href="./index.html">Accuil</a>
+                                <a href="/home">Accuil</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <a href="./about.html">Produits</a>
+                                <a href="/products">Produits</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <a href="./services.html">À Propos</a>
+                                <a href="/about">À Propos</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <a href="./shop.html">FAQ</a>
+                                <a href="/faq">FAQ</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <a href="./packages.html">Points de vente</a>
+                                <a href="/pdv">Points de vente</a>
                             </li>
                         </ul>
                     </div>
@@ -174,8 +181,8 @@
                             <li>
                                 <p>Adresse:</p>
                             </li>
-                            <li>
-                                <span>Rue Ahmed Boukhlef, 16045, Birtouta</span>
+                            <li class="mail">
+                                <a href="https://www.google.com/maps/dir/?api=1&destination=36.645392666286%2C2.9955031700211">Rue Ahmed Boukhlef, 16045, Birtouta</a>
                             </li>
                             <li>
                                 <p>Email:</p>

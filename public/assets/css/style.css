@@ -32,8 +32,8 @@ body {
     --e-global-color-text: #544e5f;
     --e-global-color-accent: #8cc63f;
 	--e-global-color-white: #ffffff;
-    --e-global-color-very-soft-violet: #bb98fd;
-    --e-global-color-soft-violet: #ba97fc;
+    --e-global-color-very-soft-violet: #b3b3b4;
+    --e-global-color-soft-violet: #a8fc97;
     --e-global-color-lime-green: #8ce1c9;
     --e-global-color-soft-red: #f9a49d;
     --e-global-color-bright-orange: #f6a939;
@@ -652,7 +652,9 @@ html{
     left: 108px;
 }
 .about_section .about_images_wrapper .about_left_box_wrapper {
-    background-color: var(--e-global-color-lime-green);
+
+    background: rgb(34,193,195);
+    background: linear-gradient(114deg, rgba(34,193,195,1) 0%, rgba(255,239,0,1) 100%);
     border-radius: 56px;
     display: flex;
     justify-content: space-evenly;
@@ -663,10 +665,13 @@ html{
     padding: 19px 38px;
     box-shadow: 0px 8px 22px 2px rgba(0, 0, 0, 0.08);
     width: 50.8%;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out !important;
+    -webkit-transition: all 0.5s ease-in-out !important;
+    transform: translateZ(0);
 }
 .about_section .about_images_wrapper .about_left_box_wrapper:hover {
-    background-color: var(--e-global-color-accent);
+    background: rgb(255,239,0);
+    background: linear-gradient(114deg, rgba(255,239,0,1) 0%, rgba(34,193,195,1) 100%);
 }
 .about_section .about_images_wrapper .about_left_box_wrapper figure {
     float: left;
@@ -1456,7 +1461,8 @@ html{
     z-index: 1;
 }
 .newsletter_section .newsletter_box {
-    background-color: var(--e-global-color-very-soft-violet);
+    background: rgb(255,239,0);
+background: linear-gradient(114deg, rgba(255,239,0,1) 0%, rgba(34,193,195,1) 100%);
     border-radius: 30px;
 }
 .newsletter_section .newsletter_box::before {
@@ -1532,9 +1538,6 @@ html{
 .newsletter_section button {
     font-family: 'Archivo', sans-serif;
     font-weight: 600;
-    position: absolute;
-    right: 5px;
-    top: 0;
     border-radius: 32px;
     font-size: 18px;
     line-height: 18px;
@@ -1793,7 +1796,7 @@ html{
     color: var(--e-global-color-text);
     margin-bottom: 28px;
 }
-.sub-banner-section-outer .banner-section .btn_wrapper {
+.banner-section-content .btn_wrapper {
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
@@ -1806,11 +1809,22 @@ html{
     box-shadow: 0px 20px 29px 2px rgba(0, 0, 0, 0.03);
     transition: all 0.3s ease-in-out;
 }
-.sub-banner-section-outer .banner-section .btn_wrapper .sub_span {
-    color: var(--e-global-color-soft-violet);
+.banner-section-content .btn_wrapper .sub_span {
+    color: var(--e-global-color-accent);
 }
-.sub-banner-section-outer .banner-section .btn_wrapper .slash {
+.banner-section-content .btn_wrapper .slash {
     padding: 0 5px;
+}
+.banner-section-content .btn_wrapper a {
+    background-color: var(--e-global-color-white);
+    color: var(--e-global-color-accent);
+    padding: 20px 38px;
+    box-shadow: 0px 7px 22px 2px rgba(0, 0, 0, 0.05);
+}
+.banner-section-content .btn_wrapper a:hover {
+    background-color: var(--e-global-color-white);
+    color: var(--e-global-color-accent);
+    box-shadow: 0px 7px 22px 2px rgba(0, 0, 0, 0.05);
 }
 .sub-banner-section-outer .banner-section .banner-section-content .sub_banner_pink_foot_shape {
     top: -30px;
@@ -3769,17 +3783,32 @@ input[type="number"]::-webkit-calendar-picker-indicator {
     color: #8cc63f;
   }
   .outer_div_footer{
+    background-color: #8cc63f;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 72px;
-    width: 72px;
-    line-height: 72px;
+    height: 59px;
+    width: 59px;
     border-radius: 100px;
-    margin-bottom: 30px;
-    margin-left: 60px;
-    background-color: var(--e-global-color-white);
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .outer_div_footer:hover{
+    background-color: #fff;
+  }
+  .outer_div_footer a {
+    color: #fff;
+  }
+  .outer_div_footer:hover a {
+    color: #8cc63f;
+  }
+  .contact-footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background: #fff;
+    border-radius: 30px;
   }
   .text-no-wrap{
     white-space: nowrap;

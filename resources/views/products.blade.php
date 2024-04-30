@@ -1,8 +1,6 @@
 @extends('layouts.app')
- 
-@section('content')
-<div class="sub-banner-section-outer">
-    <!-- SUB BANNER SECTION -->
+@section('hero')
+<div class="sub-banner-section-outer contact-banner-section-outer">
     <section class="banner-section">
         <div class="container">
             <div class="row">
@@ -53,6 +51,8 @@
         </div>
     </section>
 </div>
+@endsection
+@section('content')
 
 <section>
     <section  id="CLOSTRI" class="register_now_section position-relative" style="background-color: #ba4140;">
