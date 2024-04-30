@@ -34,15 +34,15 @@
                         </figure> 
                         <div class="box vaccination_box position-absolute hover-effect">
                             <div class="icon-container-rounded">
-                            <i class="fa-solid fa-face-smile-beam fa-lg"></i>
+                                <i class="fa-solid fa-face-smile-beam fa-2x"></i>
                             </div>
                             <div class="box_content_wrapper">
                                 <p class="box_heading text-size-16 mb-0">Régulateur du <br>stress oxydatif</p>
                             </div>
                         </div>
                         <div class="box pet_training_box position-absolute hover-effect">
-                        <div class="icon-container-rounded">
-                            <i class="fa-solid fa-dove fa-lg"></i>
+                            <div class="icon-container-rounded">
+                                <i class="fa-solid fa-dove fa-2x"></i>
                             </div>
                             <div class="box_content_wrapper">
                                 <p class="box_heading text-size-16 mb-0">Pour toutes les <br>espèces oiseaux</p>
@@ -50,7 +50,7 @@
                         </div>
                         <div class="box satisfied_client_box position-absolute hover-effect">
                             <div class="icon-container-rounded">
-                                <i class="fa-solid fa-leaf fa-lg"></i>
+                                <i class="fa-solid fa-leaf fa-2x"></i>
                             </div>
                             <div class="box_content_wrapper">
                                 <p class="box_heading text-size-16 mb-0">A base d’extraits <br> des plantes</p>
@@ -99,7 +99,7 @@
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <a href="/product-details">
+                                            <a href="products#CLOSTRI">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
                                                 </figure>
@@ -123,7 +123,7 @@
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <a href="/product-details">
+                                            <a href="products#COLIBA">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
                                                 </figure>
@@ -147,7 +147,7 @@
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <a href="/product-details">
+                                            <a href="products#COXI">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
                                                 </figure>
@@ -167,11 +167,11 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>HEPA</h5>
-                                                <p class="text-size-16 text-no-wrap">Antioxydant hepatique.</p>
+                                                <p class="text-size-16 text-no-wrap">Antioxydant hépatique.</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <a href="/product-details">
+                                            <a href="products#HEPA">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
                                                 </figure>
@@ -195,7 +195,7 @@
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <a href="/product-details">
+                                            <a href="products#PULMO">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
                                                 </figure>
@@ -219,7 +219,7 @@
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
-                                            <a href="/product-details">
+                                            <a href="products#TRICHOM">
                                                 <figure class="cart">
                                                     <i class="fa-solid fa-eye fa-lg"></i>
                                                 </figure>
@@ -331,7 +331,7 @@
 </section>
 
 <!-- FAQ SECTION -->
-<div class="accordian-section">
+<div id="faq" class="accordian-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">

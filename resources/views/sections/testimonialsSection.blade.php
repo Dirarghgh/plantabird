@@ -4,7 +4,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right">
                 <div class="testimonials_heading_content">
                     <h6>TÉMOIGNAGES</h6>
-                    <h2>Ce que nos clients ont à dire !</h2>
+                    <h2>Qu'est-ce que les oiseaux ont dit de nous !</h2>
                 </div>
                 <div class="owl-carousel owl-theme">
                     <div class="item">
@@ -18,7 +18,7 @@
                                 <li><i class="fa-solid fa-star"></i></li>
                             </ul>
                             <h3>Une Aile Pour la Guérison</h3>
-                            <p class="text-size-18">Client heureux</p>
+                            <p class="text-size-18">Chardonneret</p>
                             <figure class="testimonials_quote mb-0 position-absolute">
                                 <img src="./assets/images/testimonials_quote.png" alt="" class="img-fluid">
                             </figure>
@@ -35,7 +35,7 @@
                                 <li><i class="fa-solid fa-star"></i></li>
                             </ul>
                             <h3>Des Plumes Brillantes, un Esprit Sain</h3>
-                            <p class="text-size-18">Client heureux</p>
+                            <p class="text-size-18">Rossignol</p>
                             <figure class="testimonials_quote mb-0 position-absolute">
                                 <img src="./assets/images/testimonials_quote.png" alt="" class="img-fluid">
                             </figure>
@@ -52,7 +52,7 @@
                                 <li><i class="fa-solid fa-star"></i></li>
                             </ul>
                             <h3>Le Cri de la Santé Aviaire</h3>
-                            <p class="text-size-18">Client heureux</p>
+                            <p class="text-size-18">Roselin</p>
                             <figure class="testimonials_quote mb-0 position-absolute">
                                 <img src="./assets/images/testimonials_quote.png" alt="" class="img-fluid">
                             </figure>

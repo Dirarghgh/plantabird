@@ -126,22 +126,16 @@
                         <h3>Heures d'ouverture</h3>
                         <ul class="list-unstyled">
                             <li>
-                                <p>Lundi  – Samedi </p>
-                            </li>
-                            <li>
-                                <span>12:00 pm – 14:45 pm</span>
-                            </li>
-                            <li>
                                 <p>Dimanche  – Jeudi </p>
                             </li>
                             <li>
-                                <span>17.30 pm – 00.00 am</span>
+                                <span>09:00 am – 04:00 pm</span>
                             </li>
                             <li>
                                 <p>Vendredi  – Samedi </p>
                             </li>
                             <li>
-                                <span>17.30 pm – 00.00 am</span>
+                                <span>Fermé</span>
                             </li>
                         </ul>
                     </div>
@@ -187,7 +181,7 @@
                                 <p>Email:</p>
                             </li>
                             <li class="mail">
-                                <a href="mailto:info@pawshpetcare.com" class="text-decoration-none">Plantabird@gmail.com</a>
+                                <a href="mailto:Plantabird@gmail.com" class="text-decoration-none">Plantabird@gmail.com</a>
                             </li>
                         </ul>
                         <ul class="list-unstyled">
