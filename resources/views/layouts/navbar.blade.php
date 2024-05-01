@@ -53,12 +53,24 @@
                             <li class="nav-item {{ request()->path() === 'pdv' ? 'active ' : '' }}">
                                 <a class="nav-link" href="/pdv">Points de vente</a>
                             </li>
-                                <div class="switch">
-                                    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-                                    <label for="language-toggle"></label>
-                                    <span class="on">fr</span>
-                                    <span class="off">عر</span>
-                                </div>
+                            <li>
+                                <select class=" p-1" aria-label="Default select example">
+                                    <img class="img-fluid" src="./assets/images/france.png" alt="francais">
+                                    <option selected>
+                                        Fr
+                                    </option>
+                                    <option value="1">
+                                        <img class="img-fluid" src="./assets/images/algerie.png" alt="arabe">
+                                        عر
+                                    </option>
+                                </select>
+                            </li>
+                            <!-- <div class="switch">
+                                <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+                                <label for="language-toggle"></label>
+                                <span class="on">fr</span>
+                                <span class="off">عر</span>
+                            </div> -->
                             <li class="nav-item">
                                 <a class="nav-link default-btn contact_us" href="/contact">Contacts</a>
                             </li>
@@ -75,4 +87,9 @@
     </header>
     @yield('hero')
 </div>
+<script>
+    $(function(){
+    $('.selectpicker').selectpicker();
+    });
+</script>
 <!-- 8cc63f -->
