@@ -20,7 +20,7 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle dropdown-color navbar-text-color {{ request()->path() === 'products' ? 'active ' : '' }}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false"> Produits </a>
+                                    aria-expanded="false">Produits</a>
                                 <div class="dropdown-menu drop-down-content">
                                     <ul class="list-unstyled drop-down-pages">
                                         <li class="nav-item {{ request()->path() === 'products#CLOSTRI' ? 'active ' : '' }}">
@@ -51,20 +51,20 @@
                                 <a class="nav-link" href="/faq">FAQ</a>
                             </li>
                             <li class="nav-item {{ request()->path() === 'pdv' ? 'active ' : '' }}">
-                                <a class="nav-link" href="/pdv">Points de vente</a>
+                                <a class="nav-link" href="/pdv">PDV</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <select class=" p-1" aria-label="Default select example">
                                     <img class="img-fluid" src="./assets/images/france.png" alt="francais">
                                     <option selected>
-                                        Fr
+                                        <a href="locale/fr"> Fr</a>
                                     </option>
                                     <option value="1">
                                         <img class="img-fluid" src="./assets/images/algerie.png" alt="arabe">
-                                        عر
+                                        <a href="locale/ar"> عر</a>
                                     </option>
                                 </select>
-                            </li>
+                            </li> -->
                             <!-- <div class="switch">
                                 <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
                                 <label for="language-toggle"></label>
@@ -87,9 +87,4 @@
     </header>
     @yield('hero')
 </div>
-<script>
-    $(function(){
-    $('.selectpicker').selectpicker();
-    });
-</script>
 <!-- 8cc63f -->

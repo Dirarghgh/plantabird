@@ -2,22 +2,22 @@
 @section('hero')
     <section class="banner-section">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row mb-0">
                 <div class="col-lg-5 col-md-12 col-sm-12 col-12 text-lg-left text-center">
                     <div class="banner-section-content">
-                        <h1 data-aos="fade-up">La santé de votre <span></span> est notre priorité.</h1>
+                        <h1  data-aos="fade-up">La santé de votre <span></span> est notre priorité.</h1>
                         <p data-aos="fade-right">&nbsp; &nbsp; &nbsp;Nos produits offrent une solution pour soutenir la santé et le bien-être des petits oiseaux . Nous proposons une gamme de complément alimentaire naturels.</p>
                         <div class="" data-aos="fade-up">
-                            <a class="text-decoration-none default-btn" href="./about.html">En savoir plus</a>
+                            <a class="text-decoration-none default-btn" href="/about">En savoir plus</a>
                         </div>
                         <figure class="banner_top_shape mb-0 position-absolute left_right_shape">
                             <img src="./assets/images/banner_content_top_shape.png" alt="" class="img-fluid">
                         </figure>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-12 col-sm-12 col-12">
-                    <div class="banner-section-image position-relative">
-                        <figure class="banner-image mb-0 left_right_shape">
+                <div class="col-lg-7 col-md-12 col-sm-12 col-12  ">
+                    <div class="banner-section-image position-relative ">
+                        <figure class="banner-image mb-0 left_right_shape ">
                             <img src="./assets/images/designs/2.png" alt="" class="img-fluid">
                         </figure> 
                         <figure class="banner-background-image mb-0 position-absolute">
@@ -440,8 +440,12 @@
                             <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-instagram hover-effect mr-0" aria-hidden="true"></i>
+                            <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>
                         </a>
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=36.645392666286%2C2.9955031700211" class="text-decoration-none">
+                            <i class="fa-solid fa-map hover-effect mr-0" aria-hidden="true"></i>
+                        </a>
+                        
                     </div>
                 </div>
             </div>
@@ -458,8 +462,12 @@
                             <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-instagram hover-effect mr-0" aria-hidden="true"></i>
+                            <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>
                         </a>
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=36.645392666286%2C2.9955031700211" class="text-decoration-none">
+                            <i class="fa-solid fa-map hover-effect mr-0" aria-hidden="true"></i>
+                        </a>
+                        
                     </div>
                 </div>
             </div>
@@ -476,8 +484,12 @@
                             <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-instagram hover-effect mr-0" aria-hidden="true"></i>
+                            <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>
                         </a>
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=36.645392666286%2C2.9955031700211" class="text-decoration-none">
+                            <i class="fa-solid fa-map hover-effect mr-0" aria-hidden="true"></i>
+                        </a>
+                        
                     </div>
                 </div>
             </div>

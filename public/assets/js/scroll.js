@@ -16,3 +16,6 @@ window.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
+  /* background: rgb(34,193,195);
+background: linear-gradient(114deg, rgba(34,193,195,1) 0%, rgba(255,239,0,1) 100%); */

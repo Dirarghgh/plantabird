@@ -142,9 +142,9 @@
                                     </button>
                                 </div>
                                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen">
-                                <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">Les signes courants de maladie chez les oiseaux incluent des changements dans le comportement, une perte d'appétit, des écoulements nasaux, ou un plumage ébouriffé. Si vous observez l'un de ces signes, consultez un vétérinaire aviaire pour un diagnostic précis.</p>
-                                </div>
+                                    <div class="card-body">
+                                        <p class="text-size-16 text-left mb-0 p-0">Les signes courants de maladie chez les oiseaux incluent des changements dans le comportement, une perte d'appétit, des écoulements nasaux, ou un plumage ébouriffé. Si vous observez l'un de ces signes, consultez un vétérinaire aviaire pour un diagnostic précis.</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="accordion-card">

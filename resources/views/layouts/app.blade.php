@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <title>Plantabird</title>
         <!-- /SEO Ultimate -->
@@ -44,7 +44,6 @@
         @yield('content')
 
         @include('layouts.footer')
-
         <!-- Latest compiled JavaScript -->
         <script src="{{asset('assets/js/jquery-3.6.0.min.js')}}"></script>
         <script src="{{asset('assets/js/popper.min.js')}}"></script>

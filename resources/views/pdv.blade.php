@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="faq_content" data-aos="fade-right">
-                    <h2>Pet Shop </h2>
+                    <h2 class="pdv_name_green">Pet Shop </h2>
                     <h4>Cité des 2000 logements, Bouira.</h4>
                     <p class="text-size-18">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
@@ -50,7 +50,10 @@
                             <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-instagram hover-effect mr-0" aria-hidden="true"></i>
+                            <i class="fa-brands fa-instagram hover-effect " aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=36.645392666286%2C2.9955031700211" class="text-decoration-none">
+                            <i class="fa-solid fa-map hover-effect mr-0" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
@@ -77,7 +80,7 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="faq_content ml-lg-2" data-aos="fade-right">
-                    <h2>Pet Shop </h2>
+                    <h2 class="pdv_name_green">Pet Shop </h2>
                     <h4>Rue Ahmed Boukhlef, Birtouta, Alger.</h4>
                     <p class="text-size-18">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
@@ -89,7 +92,10 @@
                             <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-instagram hover-effect mr-0" aria-hidden="true"></i>
+                            <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=36.645392666286%2C2.9955031700211" class="text-decoration-none">
+                            <i class="fa-solid fa-map hover-effect mr-0" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
@@ -106,7 +112,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="faq_content" data-aos="fade-right">
-                    <h2>Pet Shop </h2>
+                    <h2 class="pdv_name_green">Pet Shop </h2>
                     <h4>Cité Les Amandiers, Oran.</h4>
                     <p class="text-size-18">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
@@ -118,7 +124,10 @@
                             <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-instagram hover-effect mr-0" aria-hidden="true"></i>
+                            <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=36.645392666286%2C2.9955031700211" class="text-decoration-none">
+                            <i class="fa-solid fa-map hover-effect mr-0" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
