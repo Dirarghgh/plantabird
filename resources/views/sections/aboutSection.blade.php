@@ -21,11 +21,11 @@
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-12">
-                <div class="about_content" data-aos="fade-right">
-                    <h6>@lang('messages.aui_sommes_nous')</h6>
-                    <h2>@lang('messages.about1')</h2>
-                    <p class="text-size-18 about_first_p">@lang('messages.about2')</p>
-                    <p class="text-size-18"><span class="about-span-green"> PLANTABIRD </span> @lang('messages.about3')</p>
+                <div class="about_content " data-aos="fade-right" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
+                    <h6 class="{{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}">@lang('messages.aui_sommes_nous')</h6>
+                    <h2 class="{{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}">@lang('messages.about1')</h2>
+                    <p class="text-size-18 about_first_p {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}">@lang('messages.about2')</p>
+                    <p class="text-size-18 {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}"><span class="about-span-green"> PLANTABIRD </span> @lang('messages.about3')</p>
                     @if($button === true)
                     <div class="btn_wrapper">
                         <a class="text-decoration-none default-btn" href="about">@lang('messages.plus')</a>

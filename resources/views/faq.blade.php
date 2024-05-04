@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-2 col-md-12 col-sm-12 col-12 d-lg-block d-none"></div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12 text-center">
-                    <div class="banner-section-content">
+                    <div class="banner-section-content " @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <h1 data-aos="fade-up">@lang('messages.faq')</h1>
                         <p data-aos="fade-right">@lang('messages.faq3')</p>
                         <div class="btn_wrapper" data-aos="fade-up">
@@ -38,7 +38,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="faq_content" data-aos="fade-right">
+                <div class="faq_content {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}" data-aos="fade-right" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                     <h6>@lang('messages.faq')</h6>
                     <h2>@lang('messages.faq1')</h2>
                     <p class="text-size-18">@lang('messages.faq2')</p>
@@ -60,7 +60,7 @@
                                 </div>
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse1')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse1')</p>
                                 </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse2')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse2')</p>
                                 </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                                 </div>
                                 <div id="collapseTree" class="collapse" aria-labelledby="headingTree">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse3')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse3')</p>
                                 </div>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse4')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse4')</p>
                                 </div>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@
                                 </div>
                                 <div id="collapseNine" class="collapse" aria-labelledby="headingNine">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse5')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse5')</p>
                                 </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@
                                 </div>
                                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen">
                                     <div class="card-body">
-                                        <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse6')</p>
+                                        <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse6')</p>
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@
                                 </div>
                                 <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse7')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse7')</p>
                                 </div>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@
                                 </div>
                                 <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse8')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse8')</p>
                                 </div>
                                 </div>
                             </div>
@@ -191,7 +191,7 @@
                                 </div>
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse9')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse9')</p>
                                 </div>
                                 </div>
                             </div>
@@ -204,7 +204,7 @@
                                 </div>
                                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse10')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse10')</p>
                                 </div>
                                 </div>
                             </div>
@@ -217,7 +217,7 @@
                                 </div>
                                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse11')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse11')</p>
                                 </div>
                                 </div>
                             </div>
@@ -230,7 +230,7 @@
                                 </div>
                                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight">
                                     <div class="card-body">
-                                        <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse12')</p>
+                                        <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse12')</p>
                                     </div>
                                 </div>
                             </div>

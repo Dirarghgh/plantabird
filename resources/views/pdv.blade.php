@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-2 col-md-12 col-sm-12 col-12 d-lg-block d-none"></div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12 text-center">
-                    <div class="banner-section-content">
+                    <div class="banner-section-content" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <h1 data-aos="fade-up">@lang('messages.pdv')</h1>
                         <p data-aos="fade-right">@lang('messages.pdv2')</p>
                         <div class="btn_wrapper" data-aos="fade-up">
@@ -37,10 +37,10 @@
     <div class="container mb-4">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="faq_content" data-aos="fade-right">
+                <div class="faq_content {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}" data-aos="fade-right" >
                     <h2 class="pdv_name_green">Pet Shop </h2>
-                    <h4>@lang('messages.pdv_adress1')</h4>
-                    <p class="text-size-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <h4 @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.pdv_adress1')</h4>
+                    <p class="text-size-18" @if(app()->getLocale() === 'ar') dir="rtl" @endif>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
@@ -79,8 +79,8 @@
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="faq_content ml-lg-2" data-aos="fade-right">
                     <h2 class="pdv_name_green">Pet Shop </h2>
-                    <h4>@lang('messages.pdv_adress2')</h4>
-                    <p class="text-size-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <h4 @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.pdv_adress2')</h4>
+                    <p class="text-size-18" @if(app()->getLocale() === 'ar') dir="rtl" @endif>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
@@ -107,10 +107,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="faq_content" data-aos="fade-right">
+                <div class="faq_content {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}" data-aos="fade-right">
                     <h2 class="pdv_name_green">Pet Shop </h2>
-                    <h4>@lang('messages.pdv_adress3')</h4>
-                    <p class="text-size-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <h4 @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.pdv_adress3')</h4>
+                    <p class="text-size-18" @if(app()->getLocale() === 'ar') dir="rtl" @endif>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">

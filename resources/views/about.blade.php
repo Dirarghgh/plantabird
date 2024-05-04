@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-2 col-md-12 col-sm-12 col-12 d-lg-block d-none"></div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12 text-center">
-                    <div class="banner-section-content">
+                    <div class="banner-section-content" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <h1 data-aos="fade-up">@lang('messages.about4')</h1>
                         <p data-aos="fade-right">@lang('messages.about5')</p>
                         <div class="btn_wrapper" data-aos="fade-up">

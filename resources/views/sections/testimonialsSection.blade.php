@@ -1,15 +1,15 @@
 <section class="testimonials_section position-relative">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right" >
                 <div class="testimonials_heading_content">
                     <h6>@lang('messages.temoignages')</h6>
                     <h2>@lang('messages.tem_titre')</h2>
                 </div>
                 <div class="owl-carousel owl-theme">
-                    <div class="item">
+                    <div class="item " @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <div class="testimonials_content position-relative">
-                            <p class="paragraph">@lang('messages.tem_p11') <span class="about-span-green"> PLANTABIRD </span> @lang('messages.tem_p12')</p>
+                            <p class="paragraph ">@lang('messages.tem_p11') <span class="about-span-green"> PLANTABIRD </span> @lang('messages.tem_p12')</p>
                             <ul class="list-unstyled">
                                 <li><i class="fa-solid fa-star"></i></li>
                                 <li><i class="fa-solid fa-star"></i></li>
@@ -24,7 +24,7 @@
                             </figure>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <div class="testimonials_content position-relative">
                             <p class="paragraph">@lang('messages.tem_p21') <span class="about-span-green"> PLANTABIRD </span>@lang('messages.tem_p22')</p>
                             <ul class="list-unstyled">
@@ -41,7 +41,7 @@
                             </figure>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <div class="testimonials_content position-relative">
                             <p class="paragraph">@lang('messages.tem_p31') <span class="about-span-green"> PLANTABIRD </span>@lang('messages.tem_p32')</p>
                             <ul class="list-unstyled">
@@ -62,18 +62,22 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-md-block d-none">
                 <div class="testimonials_image">
+                    @if(app()->getLocale() === 'fr')  
                     <figure class="testimonials_image1 testimonials_image_border_1 mb-0 position-absolute">
                         <img src="./assets/images/birds/birds_tem/1.png" alt="" class="img-fluid hover-effect">
                     </figure>
+                    @endif
                     <figure class="testimonials_image2 testimonials_image_border_2 mb-0 position-absolute">
                         <img src="./assets/images/birds/birds_tem/2.png" alt="" class="img-fluid hover-effect">
                     </figure>
                     <figure class="testimonials_image3 testimonials_image_border_3 mb-0 position-absolute">
                         <img src="./assets/images/birds/birds_tem/3.png" alt="" class="img-fluid hover-effect">
                     </figure>
+                    @if(app()->getLocale() === 'fr')  
                     <figure class="testimonials_image4 testimonials_image_border_1 mb-0 position-absolute">
                         <img src="./assets/images/birds/birds_tem/4.png" alt="" class="img-fluid hover-effect">
                     </figure>
+                    @endif
                     <figure class="testimonials_image5 testimonials_image_border_4 mb-0 position-absolute">
                         <img src="./assets/images/birds/birds_tem/5.png" alt="" class="img-fluid hover-effect">
                     </figure>

@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-2 col-md-12 col-sm-12 col-12 d-lg-block d-none"></div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12 text-center">
-                    <div class="banner-section-content">
+                    <div class="banner-section-content" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <h1 data-aos="fade-up">@lang('messages.contacts')</h1>
                         <p data-aos="fade-right">@lang('messages.contacts2')</p>
                         <div class="btn_wrapper" data-aos="fade-up">
@@ -40,7 +40,7 @@
             <div class="col-lg-5 col-md-12 col-sm-12 col-12">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="contact_info_content">
+                        <div class="contact_info_content {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}" @if(app()->getLocale() === 'ar') dir="rtl"  @endif>
                             <h6>@lang('messages.nos_infos')</h6>
                             <h2>@lang('messages.prenez_contact')</h2>
                             <p class="text-size-18">@lang('messages.contacts2')</p>
@@ -90,7 +90,7 @@
                 </div>
             </div>
             <div class="col-lg-7 col-md-12 col-sm-12 col-12" data-aos="fade-right">
-                <div class="contact_info_form_content">
+                <div class="contact_info_form_content {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                     <h6>@lang('messages.contantez_nous')</h6>
                     <h2>@lang('messages.contacts3')</h2>
                     <p class="text-size-18">@lang('messages.contacts4')</p>
@@ -103,7 +103,7 @@
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <div class="form-group mb-0">    
-                                <input type="tel" name="phone" id="phonenum" class="form-control" placeholder="@lang('messages.num_tel')"> 
+                                <input @if(app()->getLocale() === 'ar') dir="rtl" @endif type="tel" name="phone" id="phonenum" class="form-control" placeholder="@lang('messages.num_tel')"> 
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -140,3 +140,4 @@
     </div>
 </div>
 @endsection
+

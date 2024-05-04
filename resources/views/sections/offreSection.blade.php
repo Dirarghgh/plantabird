@@ -1,8 +1,8 @@
 <section class="choose_us_section">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="choose_us_content" data-aos="fade-right">
+        <div class="row" >
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
+                <div class="choose_us_content {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}" data-aos="fade-right">
                     <h6>@lang('messages.ce_aue_nous_proposons')</h6>
                     <h2>@lang('messages.pourquoi_plantabird')</h2>
                     <p class="text-size-18">@lang('messages.chooseus1')</p>

@@ -1468,14 +1468,7 @@
         left: 15px;
         padding: 8px 12px;
     }
-    .banner-section-outer .banner-section .banner-section-image .satisfied_client_box .image_wrapper figure img {
-        width: 42px;
-    }
-    .banner-section-outer .banner-section .banner-section-image .satisfied_client_box .box_content_wrapper {
-        margin-left: -45px;
-        padding-top: 0;
-        padding-left: 0;
-    }
+
     .banner-section-outer .banner-section .banner-section-image .box .box_content_wrapper .box_heading {
         font-size: 14px;
         line-height: 22px;
@@ -3576,9 +3569,7 @@
         display: none;
     }
     .banner-section-outer .banner-section .banner-section-image .satisfied_client_box {
-        top: 225px;
-        left: -25px;
-        padding: 6px 10px;
+        display: none;
     }
     .banner-section-outer .banner-section .banner-section-image .satisfied_client_box .image_wrapper figure img {
         width: 40px;

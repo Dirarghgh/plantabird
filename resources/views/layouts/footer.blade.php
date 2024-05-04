@@ -116,7 +116,7 @@
                                 <img src="./assets/images/favicon/logo_t.png" alt="" class="img-fluid">
                             </figure>
                         </a>
-                        <p> &nbsp; &nbsp; &nbsp;@lang('messages.footer2')</p>
+                        <p class="{{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.footer2')</p>
                         <div class="headphone_wrapper">
                             <figure class="mb-0">
                                 <img src="./assets/images/footer_headphone.png" alt="" class="img-fluid">
@@ -203,7 +203,7 @@
     </div>
     <div class="bottom-portion">
         <div class="col-12"> 
-            <div class="copyright">
+            <div class="copyright" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                 <p>@lang('messages.copyright') © - {{ date('Y') }} @lang('messages.by') <a class="text-white" href="https://sadeeminfo.com/"> Sadeem informatique.</a> @lang('messages.rights_reserved')</p>
             </div>
         </div>

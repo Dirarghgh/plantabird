@@ -5,8 +5,8 @@
             <div class="row mb-0">
                 <div class="col-lg-5 col-md-12 col-sm-12 col-12 text-lg-left text-center">
                     <div class="banner-section-content">
-                        <h1  data-aos="fade-up">@lang('messages.home_hero1')<span></span> @lang('messages.home_hero2')</h1>
-                        <p data-aos="fade-right">&nbsp; &nbsp; &nbsp;@lang('messages.home_hero3')</p>
+                        <h1  data-aos="fade-up " @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.home_hero1')<span></span> @lang('messages.home_hero2')</h1>
+                        <p data-aos="fade-right" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.home_hero3')</p>
                         <div class="" data-aos="fade-up">
                             <a class="text-decoration-none default-btn" href="/about">@lang('messages.plus')</a>
                         </div>
@@ -30,7 +30,7 @@
                             <img src="./assets/images/birds/3.png" alt="" class="img-fluid">
                         </figure> 
                         <div class="box vaccination_box position-absolute hover-effect">
-                        <div class="icon-container-rounded">
+                            <div class="icon-container-rounded">
                                 <i class="fa-solid fa-leaf fa-2x"></i>
                             </div>
                             <div class="box_content_wrapper">
@@ -46,7 +46,6 @@
                             </div>
                         </div>
                         <div class="box satisfied_client_box position-absolute hover-effect">
-
                             <div class="icon-container-rounded">
                                 <i class="fa-solid fa-face-smile-beam fa-2x"></i>
                             </div>
@@ -256,7 +255,7 @@
 <!-- OUR MISSION SECTION -->
 <section class="mission_section position-relative" id="video_section">
     <div class="container">
-        <div class="row">
+        <div class="row" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
             <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="mission_content">
                     <h6>@lang('messages.nos_engagement')</h6>
@@ -334,8 +333,8 @@
 <div id="faq" class="accordian-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="faq_content" data-aos="fade-right">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 " @if(app()->getLocale() === 'ar') dir="rtl" @endif>
+                <div class="faq_content {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}" data-aos="fade-right">
                     <h6>@lang('messages.faq')</h6>
                     <h2>@lang('messages.faq1')</</h2>
                     <p class="text-size-18">@lang('messages.faq2') </p>
@@ -347,7 +346,7 @@
                     </figure>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                 <div class="position-relative">
                     <div class="accordian-inner" data-aos="fade-up">
                         <div id="accordion1">
@@ -360,7 +359,7 @@
                                 </div>
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse1')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0 {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}">@lang('messages.reponse1')</p>
                                 </div>
                                 </div>
                             </div>
@@ -373,7 +372,7 @@
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse2')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0 {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}">@lang('messages.reponse2')</p>
                                 </div>
                                 </div>
                             </div>
@@ -386,7 +385,7 @@
                                 </div>
                                 <div id="collapseTree" class="collapse" aria-labelledby="headingTree">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse3')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0 {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}">@lang('messages.reponse3')</p>
                                 </div>
                                 </div>
                             </div>
@@ -399,7 +398,7 @@
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse4')</p>
+                                    <p class="text-size-16 text-left mb-0 p-0 {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}">@lang('messages.reponse4')</p>
                                 </div>
                                 </div>
                             </div>

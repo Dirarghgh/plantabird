@@ -54,7 +54,7 @@
 @endsection
 @section('content')
 
-<section>
+<section class="{{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}">
     <section  id="CLOSTRI" class="register_now_section position-relative" style="background-color: #ba4140;">
         <div class="container">
             <div class="row position-relative">
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="register_content" data-aos="fade-right">
+                    <div class="register_content" data-aos="fade-right" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <h2 class="">CLOSTRI - 30ml</h2>
                         <h3>@lang('messages.compement_digestif')</h3>
                         <p>@lang('messages.ceproduit1')</p>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="register_content" data-aos="fade-right">
+                    <div class="register_content" data-aos="fade-right" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <h2 class="">COLIBA - 30ml</h2>
                         <h3>@lang('messages.compement_digestif')</h3>
                         <p>@lang('messages.ceproduit2')</p>
@@ -244,7 +244,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="register_content" data-aos="fade-right">
+                    <div class="register_content" data-aos="fade-right" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <h2 class="">COXI - 30ml</h2>
                         <h3>@lang('messages.compement_digestif')</h3>
                         <p>@lang('messages.ceproduit3')</p>
@@ -333,7 +333,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="register_content" data-aos="fade-right">
+                    <div class="register_content" data-aos="fade-right" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <h2 class="">HEPA - 30ml</h2>
                         <h3>@lang('messages.compement_hepatique')</h3>
                         <p>@lang('messages.ceproduit4')</p>
@@ -422,7 +422,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="register_content" data-aos="fade-right">
+                    <div class="register_content" data-aos="fade-right" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <h2 class="">TRICHOM - 30ml</h2>
                         <h3>@lang('messages.compement_digestif')</h3>
                         <p>@lang('messages.ceproduit5')</p>
@@ -474,7 +474,7 @@
                                         <div class="card-header" id="headingP5-3">
                                         <i class="fa-regular fa-rectangle-list" style="color: #583d44;"></i>
                                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseP5-3" aria-expanded="false" aria-controls="collapseP5-3">
-                                                                                            @lang('messages.mode')
+                                                 @lang('messages.mode')
                                             </button>
                                         </div>
                                         <div id="collapseP5-3" class="collapse" aria-labelledby="headingP5-3">
@@ -513,7 +513,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="register_content" data-aos="fade-right">
+                    <div class="register_content" data-aos="fade-right" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                         <h2 class="">PULMO - 30ml</h2>
                         <h3>@lang('messages.compement_pulmonaire')</h3>
                         <p>@lang('messages.ceproduit6')</p>

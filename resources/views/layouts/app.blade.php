@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <title>Plantabird</title>
         <!-- /SEO Ultimate -->
@@ -36,7 +36,7 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
     </head>
-    <body>
+    <body >
         <!-- Responsive navbar-->
         <!--  navbar -->
         @include('layouts.navbar')

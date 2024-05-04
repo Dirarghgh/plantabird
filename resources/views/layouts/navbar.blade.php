@@ -1,6 +1,6 @@
 <div class="banner-section-outer">
     <header>
-        <div class="main_header">
+        <div class="main_header" >
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-light p-0">
                     <a class="navbar-brand" href="/">
@@ -14,7 +14,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav " >
                             <li class="nav-item {{ request()->path() === '/' ? 'active ' : '' }}">
                                 <a class="nav-link" href="/">@lang('messages.accuil')</a>
                             </li>
@@ -55,21 +55,15 @@
                             </li>
                             <li>
                                 <div class="dropdown">
-                                    <button class="btn lang_btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button class="btn lang_btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" @if(app()->getLocale() === 'ar') dir="rtl" @endif>
                                         {{ strtoupper(app()->getLocale()) }}
                                     </button>
                                     <div class="dropdown-menu mt-4" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="locale/fr"><img src="./assets/images/france.png" alt=""> French </a>
-                                        <a class="dropdown-item" href="locale/ar"><img src="./assets/images/algerie.png" alt=""> Arabic</a>
+                                        <a class="dropdown-item" href="locale/fr"><img src="./assets/images/france.png" alt=""> Français </a>
+                                        <a class="dropdown-item" href="locale/ar"><img src="./assets/images/algerie.png" alt=""> العربية</a>
                                     </div>
                                 </div>
                             </li>
-                            <!-- <div class="switch">
-                                <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-                                <label for="language-toggle"></label>
-                                <span class="on">fr</span>
-                                <span class="off">عر</span>
-                            </div> -->
                             <li class="nav-item">
                                 <a class="nav-link default-btn contact_us" href="/contact">@lang('messages.contacts')</a>
                             </li>
