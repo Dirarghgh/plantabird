@@ -8,10 +8,10 @@
                 <div class="col-lg-2 col-md-12 col-sm-12 col-12 d-lg-block d-none"></div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12 text-center">
                     <div class="banner-section-content">
-                        <h1 data-aos="fade-up">Contact</h1>
-                        <p data-aos="fade-right">N'hésitez pas à nous contacter pour toute question, suggestion ou demande d'information. Nous sommes là pour vous aider!</p>
+                        <h1 data-aos="fade-up">@lang('messages.contacts')</h1>
+                        <p data-aos="fade-right">@lang('messages.contacts2')</p>
                         <div class="btn_wrapper" data-aos="fade-up">
-                            <span>Plantabird </span><span class="slash">/</span><span class="sub_span"> Contact</span>
+                            <span>Plantabird </span><span class="slash">/</span><span class="sub_span"> @lang('messages.contacts')</span>
                         </div>
                         <figure class="sub_banner_content_top_shape mb-0 position-absolute left_right_shape">
                             <img src="./assets/images/sub_banner_content_top_shape.png" alt="" class="img-fluid">
@@ -41,9 +41,9 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="contact_info_content">
-                            <h6>Nos Informations</h6>
-                            <h2>Prenez Contact</h2>
-                            <p class="text-size-18">N'hésitez pas à nous contacter pour toute question, suggestion ou demande d'information. Nous sommes là pour vous aider!</p>
+                            <h6>@lang('messages.nos_infos')</h6>
+                            <h2>@lang('messages.prenez_contact')</h2>
+                            <p class="text-size-18">@lang('messages.contacts2')</p>
                         </div>
                     </div>
                 </div>
@@ -56,8 +56,8 @@
                                 </figure>
                             </div>
                             <div class="contact_info_box_content_wrapper">
-                                <h3>Emplacement:</h3>
-                                <p class="text-size-16 mb-0">Rue Ahmed Boukhlef - Birtouta, 16045, Alger</p>
+                                <h3>@lang('messages.emplacement')</h3>
+                                <p class="text-size-16 mb-0">@lang('messages.adresse4')</p>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                                 </figure>
                             </div>
                             <div class="contact_info_box_content_wrapper">
-                                <h3>Téléphone:</h3>
+                                <h3>@lang('messages.tel')</h3>
                                 <p class="mb-0"><a href="tel:+012(345)67899" class="text-decoration-none">+(213)770 07 61 67</a></p>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                                 </figure>
                             </div>
                             <div class="contact_info_box_content_wrapper">
-                                <h3>Email:</h3>
+                                <h3>@lang('messages.mail')</h3>
                                 <p class="mb-0"><a href="mailto:Plantabird@gmail.com" class="text-decoration-none">Plantabird@gmail.com</a></p>
                             </div>
                         </div>
@@ -91,36 +91,36 @@
             </div>
             <div class="col-lg-7 col-md-12 col-sm-12 col-12" data-aos="fade-right">
                 <div class="contact_info_form_content">
-                    <h6>CONTACTEZ-NOUS</h6>
-                    <h2>Envoie-nous un message</h2>
-                    <p class="text-size-18">Tout ce que vous avez à faire est de remplir vos informations personnelles et d'appuyer sur Envoyer.</p>
+                    <h6>@lang('messages.contantez_nous')</h6>
+                    <h2>@lang('messages.contacts3')</h2>
+                    <p class="text-size-18">@lang('messages.contacts4')</p>
                     <form id="contactpage" method="POST" action="./contact-form.php">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <div class="form-group mb-0">
-                                <input type="text" name="fullname" id="name" class="form-control" placeholder="Nome:">
+                                <input type="text" name="fullname" id="name" class="form-control" placeholder="@lang('messages.nom')">
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <div class="form-group mb-0">    
-                                <input type="tel" name="phone" id="phonenum" class="form-control" placeholder="Numéro de téléphone:"> 
+                                <input type="tel" name="phone" id="phonenum" class="form-control" placeholder="@lang('messages.num_tel')"> 
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <div class="form-group mb-0">    
-                                <input type="email" name="emailaddress" id="emailaddrs" class="form-control" placeholder="Email:"> 
+                                <input type="email" name="emailaddress" id="emailaddrs" class="form-control" placeholder="@lang('messages.mail')"> 
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class=" form-group mb-0">    
-                                <textarea rows="3" name="msg" id="comment" class="form-control" placeholder="Message:"></textarea>
+                                <textarea rows="3" name="msg" id="comment" class="form-control" placeholder="@lang('messages.message')"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="btn_wrapper">
-                            <button type="submit" name="get_started" id="started" class="default-btn">Envoyer</button>
+                            <button type="submit" name="get_started" id="started" class="default-btn">@lang('messages.envoyer')</button>
                         </div>
                     </form>
                     <figure class="contact_info_right_shape mb-0 position-absolute left_right_shape">

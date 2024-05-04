@@ -16,11 +16,11 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item {{ request()->path() === '/' ? 'active ' : '' }}">
-                                <a class="nav-link" href="/">Accuil</a>
+                                <a class="nav-link" href="/">@lang('messages.accuil')</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle dropdown-color navbar-text-color {{ request()->path() === 'products' ? 'active ' : '' }}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Produits</a>
+                                    aria-expanded="false">@lang('messages.produits')</a>
                                 <div class="dropdown-menu drop-down-content">
                                     <ul class="list-unstyled drop-down-pages">
                                         <li class="nav-item {{ request()->path() === 'products#CLOSTRI' ? 'active ' : '' }}">
@@ -45,26 +45,25 @@
                                 </div>
                             </li>
                             <li class="nav-item {{ request()->path() === 'about' ? 'active ' : '' }}">
-                                <a class="nav-link" href="/about">À Propos</a>
+                                <a class="nav-link" href="/about">@lang('messages.apropos')</a>
                             </li>
                             <li class="nav-item {{ request()->path() === 'faq' ? 'active ' : '' }}">
-                                <a class="nav-link" href="/faq">FAQ</a>
+                                <a class="nav-link" href="/faq">@lang('messages.faq')</a>
                             </li>
                             <li class="nav-item {{ request()->path() === 'pdv' ? 'active ' : '' }}">
-                                <a class="nav-link" href="/pdv">PDV</a>
+                                <a class="nav-link" href="/pdv">@lang('messages.pdv')</a>
                             </li>
-                            <!-- <li>
-                                <select class=" p-1" aria-label="Default select example">
-                                    <img class="img-fluid" src="./assets/images/france.png" alt="francais">
-                                    <option selected>
-                                        <a href="locale/fr"> Fr</a>
-                                    </option>
-                                    <option value="1">
-                                        <img class="img-fluid" src="./assets/images/algerie.png" alt="arabe">
-                                        <a href="locale/ar"> عر</a>
-                                    </option>
-                                </select>
-                            </li> -->
+                            <li>
+                                <div class="dropdown">
+                                    <button class="btn lang_btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        {{ strtoupper(app()->getLocale()) }}
+                                    </button>
+                                    <div class="dropdown-menu mt-4" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="locale/fr"><img src="./assets/images/france.png" alt=""> French </a>
+                                        <a class="dropdown-item" href="locale/ar"><img src="./assets/images/algerie.png" alt=""> Arabic</a>
+                                    </div>
+                                </div>
+                            </li>
                             <!-- <div class="switch">
                                 <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
                                 <label for="language-toggle"></label>
@@ -72,7 +71,7 @@
                                 <span class="off">عر</span>
                             </div> -->
                             <li class="nav-item">
-                                <a class="nav-link default-btn contact_us" href="/contact">Contacts</a>
+                                <a class="nav-link default-btn contact_us" href="/contact">@lang('messages.contacts')</a>
                             </li>
                         </ul>
                         <div class="outer_div_footer">

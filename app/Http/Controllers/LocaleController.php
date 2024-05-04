@@ -11,7 +11,10 @@ class LocaleController extends Controller
     public function setLocale($lang){
         if (in_array($lang,['fr','ar'])) {
             App::setLocale($lang);
-            Session::put("locale",$lang);
+            Session::put('locale',$lang);
+            echo $lang;
+        }else{
+            echo "Error"; 
         }
         return back();
     }

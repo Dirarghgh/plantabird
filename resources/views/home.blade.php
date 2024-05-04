@@ -5,10 +5,10 @@
             <div class="row mb-0">
                 <div class="col-lg-5 col-md-12 col-sm-12 col-12 text-lg-left text-center">
                     <div class="banner-section-content">
-                        <h1  data-aos="fade-up">La santé de votre <span></span> est notre priorité.</h1>
-                        <p data-aos="fade-right">&nbsp; &nbsp; &nbsp;Nos produits offrent une solution pour soutenir la santé et le bien-être des petits oiseaux . Nous proposons une gamme de complément alimentaire naturels.</p>
+                        <h1  data-aos="fade-up">@lang('messages.home_hero1')<span></span> @lang('messages.home_hero2')</h1>
+                        <p data-aos="fade-right">&nbsp; &nbsp; &nbsp;@lang('messages.home_hero3')</p>
                         <div class="" data-aos="fade-up">
-                            <a class="text-decoration-none default-btn" href="/about">En savoir plus</a>
+                            <a class="text-decoration-none default-btn" href="/about">@lang('messages.plus')</a>
                         </div>
                         <figure class="banner_top_shape mb-0 position-absolute left_right_shape">
                             <img src="./assets/images/banner_content_top_shape.png" alt="" class="img-fluid">
@@ -30,11 +30,11 @@
                             <img src="./assets/images/birds/3.png" alt="" class="img-fluid">
                         </figure> 
                         <div class="box vaccination_box position-absolute hover-effect">
-                            <div class="icon-container-rounded">
-                                <i class="fa-solid fa-face-smile-beam fa-2x"></i>
+                        <div class="icon-container-rounded">
+                                <i class="fa-solid fa-leaf fa-2x"></i>
                             </div>
                             <div class="box_content_wrapper">
-                                <p class="box_heading text-size-16 mb-0">Régulateur du <br>stress oxydatif</p>
+                                <p class="box_heading text-size-16 mb-0">@lang('messages.hone_p31')<br>@lang('messages.hone_p32')</p>
                             </div>
                         </div>
                         <div class="box pet_training_box position-absolute hover-effect">
@@ -42,15 +42,16 @@
                                 <i class="fa-solid fa-dove fa-2x"></i>
                             </div>
                             <div class="box_content_wrapper">
-                                <p class="box_heading text-size-16 mb-0">Pour toutes les <br>espèces oiseaux</p>
+                                <p class="box_heading text-size-16 mb-0">@lang('messages.hone_p21')<br>@lang('messages.hone_p22')</p>
                             </div>
                         </div>
                         <div class="box satisfied_client_box position-absolute hover-effect">
+
                             <div class="icon-container-rounded">
-                                <i class="fa-solid fa-leaf fa-2x"></i>
+                                <i class="fa-solid fa-face-smile-beam fa-2x"></i>
                             </div>
                             <div class="box_content_wrapper">
-                                <p class="box_heading text-size-16 mb-0">A base d’extraits <br> des plantes</p>
+                                <p class="box_heading text-size-16 mb-0">@lang('messages.hone_p11')<br>@lang('messages.hone_p12')</p>
                             </div>
                         </div>
                     </div>
@@ -73,8 +74,8 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="store_content">
-                    <h6>Nos produits</h6>
-                    <h2>Nous proposons une gamme de complément alimentaire naturels</h2>
+                    <h6>@lang('messages.nos_produits')</h6>
+                    <h2>@lang('messages.nos_produits1')</h2>
                 </div>
             </div>
         </div>
@@ -94,7 +95,7 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>CLOSTRI</h5>
-                                                <p class="text-size-16 text-no-wrap">Antioxydant digestif.</p>
+                                                <p class="text-size-16 text-no-wrap">@lang('messages.digestif')</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
@@ -118,7 +119,7 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>COLIBA</h5>
-                                                <p class="text-size-16 text-no-wrap">Antioxydant digestif</p>
+                                                <p class="text-size-16 text-no-wrap">@lang('messages.digestif')</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
@@ -142,7 +143,7 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>COXI</h5>
-                                                <p class="text-size-16 text-no-wrap">Antioxydant digestif.</p>
+                                                <p class="text-size-16 text-no-wrap">@lang('messages.digestif')</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
@@ -166,7 +167,7 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>HEPA</h5>
-                                                <p class="text-size-16 text-no-wrap">Antioxydant hépatique.</p>
+                                                <p class="text-size-16 text-no-wrap">@lang('messages.hepatique')</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
@@ -190,7 +191,7 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>PULMO</h5>
-                                                <p class="text-size-16 text-no-wrap">Antioxydant pulmonaire.</p>
+                                                <p class="text-size-16 text-no-wrap">@lang('messages.pulmonaire')</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
@@ -214,7 +215,7 @@
                                         <div class="text_rate_wrapper">
                                             <div class="text_wrapper">
                                                 <h5>TRICHOM</h5>
-                                                <p class="text-size-16 text-no-wrap">Antioxydant digestif.</p>
+                                                <p class="text-size-16 text-no-wrap">@lang('messages.digestif')</p>
                                             </div>
                                         </div>
                                         <div class="price_cart_wrapper">
@@ -258,8 +259,8 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="mission_content">
-                    <h6>Nos engagement</h6>
-                    <h2>Nous garantissons la santé de vos oiseaux</h2>
+                    <h6>@lang('messages.nos_engagement')</h6>
+                    <h2>@lang('messages.nos_engagement1')</h2>
                 </div>
             </div>
         </div>
@@ -272,8 +273,8 @@
                                 <figure class="mession-icons">
                                     <i class="fa-solid fa-feather-pointed hover-effect fa-4x"></i>
                                 </figure>
-                                <h3>Ailes</h3>
-                                <p class="text-size-18">Des médicaments adaptés à chaque volée.</p>
+                                <h3>@lang('messages.ailes')</h3>
+                                <p class="text-size-18">@lang('messages.ailes_text')</p>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-6 col-12">
@@ -281,8 +282,8 @@
                                 <figure class="mession-icons">
                                     <i class="fa-solid fa-hand-holding-medical hover-effect fa-4x"></i>
                                 </figure>
-                                <h3>Soin </h3>
-                                <p class="text-size-18">Votre oiseau mérite le meilleur soin.</p>
+                                <h3>@lang('messages.sante') </h3>
+                                <p class="text-size-18">@lang('messages.sante_text')</p>
                             </div>
                         </div>
                     </div>
@@ -303,8 +304,8 @@
                                 <figure class="mession-icons">
                                     <i class="fa-solid fa-solid fa-notes-medical hover-effect fa-4x"></i>
                                 </figure>
-                                <h3>La santé</h3>
-                                <p class="text-size-18">Pour des oiseaux en pleine forme, faites confiance à notre traitement.</p>
+                                <h3>@lang('messages.soin')</h3>
+                                <p class="text-size-18">@lang('messages.soin_text')</p>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-6 col-12">
@@ -312,8 +313,8 @@
                                 <figure class="mession-icons">
                                     <i class="fa-solid fa-solid fa-heart-pulse hover-effect fa-4x"></i>
                                 </figure>
-                                <h3>Guérison</h3>
-                                <p class="text-size-18">Du bec au bout des plumes, une santé radieuse.</p>
+                                <h3>@lang('messages.guerison')</h3>
+                                <p class="text-size-18">@lang('messages.guerison_text')</p>
                             </div>
                         </div>
                     </div>
@@ -335,11 +336,11 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="faq_content" data-aos="fade-right">
-                    <h6>FAQ</h6>
-                    <h2>Nous sommes prêts à répondre à vos questions</h2>
-                    <p class="text-size-18">&nbsp; &nbsp; &nbsp; Nous comprenons l'importance de maintenir la santé et le bien-être de vos précieux compagnons à plumes. Cette section FAQ vise à répondre à vos questions les plus fréquentes concernant les médicaments pour oiseaux, afin de vous aider à prendre soin de vos amis à plumes de la meilleure façon possible. </p>
+                    <h6>@lang('messages.faq')</h6>
+                    <h2>@lang('messages.faq1')</</h2>
+                    <p class="text-size-18">@lang('messages.faq2') </p>
                     <div class="btn_wrapper">
-                        <a class="text-decoration-none default-btn" href="/faq">En savoir plus</a>
+                        <a class="text-decoration-none default-btn" href="/faq">@lang('messages.plus')</a>
                     </div>
                     <figure class="mb-0 faq_content_shape position-absolute left_right_shape">
                         <img src="./assets/images/faq_content_shape.png" alt="" class="img-fluid">
@@ -354,12 +355,12 @@
                                 <div class="card-header" id="headingOne">
                                     <i class="fa-solid fa-question"></i>
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    Comment puis-je savoir si mon oiseau a besoin de médicaments?
+                                    @lang('messages.question1')
                                     </button>
                                 </div>
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">Les signes courants de maladie chez les oiseaux incluent un plumage ébouriffé, une perte d'appétit, ou des changements dans leur comportement. Si vous observez l'un de ces signes, consultez un vétérinaire aviaire pour un diagnostic précis.</p>
+                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse1')</p>
                                 </div>
                                 </div>
                             </div>
@@ -367,12 +368,12 @@
                                 <div class="card-header" id="headingTwo">
                                     <i class="fa-solid fa-question"></i>
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Comment administrer les médicaments à mon oiseau?
+                                    @lang('messages.question2')
                                     </button>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">L'administration de médicaments aux oiseaux peut varier selon le type de médicament et la taille de l'oiseau. Suivez toujours les instructions du vétérinaire ou lisez attentivement les indications Onenies avec le médicament.</p>
+                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse2')</p>
                                 </div>
                                 </div>
                             </div>
@@ -380,12 +381,12 @@
                                 <div class="card-header" id="headingTree">
                                     <i class="fa-solid fa-question"></i>
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTree" aria-expanded="false" aria-controls="collapseTree">
-                                        Est-ce que vous offrez des conseils sur les soins généraux des oiseaux?
+                                        @lang('messages.question3')
                                     </button>
                                 </div>
                                 <div id="collapseTree" class="collapse" aria-labelledby="headingTree">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">Oui, notre équipe est disponible pour Onenir des conseils sur la nutrition, l'environnement et d'autres aspects du soin des oiseaux. N'hésitez pas à nous contacter pour toute question.</p>
+                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse3')</p>
                                 </div>
                                 </div>
                             </div>
@@ -393,12 +394,12 @@
                                 <div class="card-header" id="headingFour">
                                     <i class="fa-solid fa-question"></i>
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Quelles sont vos options de livraison?
+                                    @lang('messages.question4')
                                     </button>
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
                                 <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0">Nous offrons une variété d'options de livraison pour répondre à vos besoins, y compris la livraison express et standard. Les détails spécifiques sur les frais et les délais de livraison sont disponibles lors du passage à la caisse.</p>
+                                    <p class="text-size-16 text-left mb-0 p-0">@lang('messages.reponse4')</p>
                                 </div>
                                 </div>
                             </div>
@@ -421,8 +422,8 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="team_content">
-                    <h6>Points de vente</h6>
-                    <h2>Bienvenue dans nos magasins</h2>
+                    <h6>@lang('messages.pdv')</h6>
+                    <h2>@lang('messages.pdv_bienvenue')</h2>
                 </div>
             </div>
         </div>
@@ -431,13 +432,10 @@
                 <div class="team_box">
                     <figure><img src="./assets/images/point_de_vente.jpg" alt="" class="img-fluid"></figure>
                     <h3>Pet Shop</h3>
-                    <p class="text-size-18">Cité des 2000 logements, Bouira.</p>
+                    <p class="text-size-18">@lang('messages.pdv_adress1')</p>
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>
@@ -453,13 +451,10 @@
                 <div class="team_box">
                     <figure><img src="./assets/images/point_de_vente.jpg" alt="" class="img-fluid"></figure>
                     <h3>Pet Shop</h3>
-                    <p class="text-size-18">Rue Ahmed Boukhlef, Birtouta, Alger.</p>
+                    <p class="text-size-18">@lang('messages.pdv_adress2')</p>
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>
@@ -475,13 +470,10 @@
                 <div class="team_box">
                     <figure><img src="./assets/images/point_de_vente.jpg" alt="" class="img-fluid"></figure>
                     <h3>Pet Shop</h3>
-                    <p class="text-size-18">Cité Les Amandiers, Oran.</p>
+                    <p class="text-size-18">@lang('messages.pdv_adress3')</p>
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>

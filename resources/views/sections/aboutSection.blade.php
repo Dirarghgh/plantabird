@@ -13,7 +13,7 @@
                         <figure class="mb-0">
                             <img src="./assets/images/about_left_box_image.png" alt="" class="img-fluid hover-effect">
                         </figure>
-                        <span class="fw-bold mb-0">Depuis 2014</span>
+                        <span class="fw-bold mb-0">@lang('messages.depuis')</span>
                     </div>
                     <figure class="mb-0 about_foot_shape position-absolute top_bottom_shape">
                         <img src="./assets/images/birds/5.png" alt="" class="img-fluid">
@@ -22,13 +22,13 @@
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-12">
                 <div class="about_content" data-aos="fade-right">
-                    <h6>QUI SOMMES NOUS ?</h6>
-                    <h2>Depuis son implantation en Algérie en 2014, </h2>
-                    <p class="text-size-18 about_first_p">la société PLANTAXION s’est donné comme objectif de devenir un acteur important dans la lutte contre les phénomènes d'antibiorésistances en santé animale. </p>
-                    <p class="text-size-18"><span class="about-span-green"> PLANTABIRD </span> est une filière de PLANTAXION qui offre une gamme de produits phytogéniques destinés pour les petits oiseaux </p>
+                    <h6>@lang('messages.aui_sommes_nous')</h6>
+                    <h2>@lang('messages.about1')</h2>
+                    <p class="text-size-18 about_first_p">@lang('messages.about2')</p>
+                    <p class="text-size-18"><span class="about-span-green"> PLANTABIRD </span> @lang('messages.about3')</p>
                     @if($button === true)
                     <div class="btn_wrapper">
-                        <a class="text-decoration-none default-btn" href="about">En savoir plus</a>
+                        <a class="text-decoration-none default-btn" href="about">@lang('messages.plus')</a>
                     </div>
                     @endif
                     <figure class="mb-0 about_content_shape position-absolute left_right_shape">

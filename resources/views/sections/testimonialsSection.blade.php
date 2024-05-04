@@ -3,13 +3,13 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right">
                 <div class="testimonials_heading_content">
-                    <h6>TÉMOIGNAGES</h6>
-                    <h2>Qu'est-ce que les oiseaux ont dit de nous !</h2>
+                    <h6>@lang('messages.temoignages')</h6>
+                    <h2>@lang('messages.tem_titre')</h2>
                 </div>
                 <div class="owl-carousel owl-theme">
                     <div class="item">
                         <div class="testimonials_content position-relative">
-                            <p class="paragraph">Chers amis plumeux, la santé est cruciale pour nous, les oiseaux. Parfois, malgré les meilleurs soins, nous tombons malades. Les médicaments pour oiseaux nous aident à retrouver notre vitalité. Faites confiance à <span class="about-span-green"> PLANTABIRD </span> pour nos remèdes.</p>
+                            <p class="paragraph">@lang('messages.tem_p11') <span class="about-span-green"> PLANTABIRD </span> @lang('messages.tem_p12')</p>
                             <ul class="list-unstyled">
                                 <li><i class="fa-solid fa-star"></i></li>
                                 <li><i class="fa-solid fa-star"></i></li>
@@ -17,8 +17,8 @@
                                 <li><i class="fa-solid fa-star"></i></li>
                                 <li><i class="fa-solid fa-star"></i></li>
                             </ul>
-                            <h3>Une Aile Pour la Guérison</h3>
-                            <p class="text-size-18">Chardonneret</p>
+                            <h3>@lang('messages.tem_o11')</h3>
+                            <p class="text-size-18">@lang('messages.tem_o12')</p>
                             <figure class="testimonials_quote mb-0 position-absolute">
                                 <img src="./assets/images/testimonials_quote.png" alt="" class="img-fluid">
                             </figure>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="item">
                         <div class="testimonials_content position-relative">
-                            <p class="paragraph">Salut, amis humains ! Nous, les oiseaux, sommes reconnaissants de votre amour. Parfois, malgré tout, nous rencontrons des défis de santé. Les médicaments pour oiseaux deviennent alors nos alliés. Avec <span class="about-span-green"> PLANTABIRD </span>, trouvez les meilleurs produits pour notre santé et bonheur.</p>
+                            <p class="paragraph">@lang('messages.tem_p21') <span class="about-span-green"> PLANTABIRD </span>@lang('messages.tem_p22')</p>
                             <ul class="list-unstyled">
                                 <li><i class="fa-solid fa-star"></i></li>
                                 <li><i class="fa-solid fa-star"></i></li>
@@ -34,8 +34,8 @@
                                 <li><i class="fa-solid fa-star"></i></li>
                                 <li><i class="fa-solid fa-star"></i></li>
                             </ul>
-                            <h3>Des Plumes Brillantes, un Esprit Sain</h3>
-                            <p class="text-size-18">Rossignol</p>
+                            <h3>@lang('messages.tem_o21')</h3>
+                            <p class="text-size-18">@lang('messages.tem_o21')</p>
                             <figure class="testimonials_quote mb-0 position-absolute">
                                 <img src="./assets/images/testimonials_quote.png" alt="" class="img-fluid">
                             </figure>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="item">
                         <div class="testimonials_content position-relative">
-                            <p class="paragraph">Chirp ! Chirp ! Salutations, amis humains ! La santé est précieuse pour nous, les oiseaux. Malgré tout votre amour, nous pouvons tomber malades. Heureusement, les médicaments pour oiseaux nous aident. Avec <span class="about-span-green"> PLANTABIRD </span>, trouvez les remèdes pour retrouver notre chant joyeux. Merci pour votre dévouement.</p>
+                            <p class="paragraph">@lang('messages.tem_p31') <span class="about-span-green"> PLANTABIRD </span>@lang('messages.tem_p32')</p>
                             <ul class="list-unstyled">
                                 <li><i class="fa-solid fa-star"></i></li>
                                 <li><i class="fa-solid fa-star"></i></li>
@@ -51,8 +51,8 @@
                                 <li><i class="fa-solid fa-star"></i></li>
                                 <li><i class="fa-solid fa-star"></i></li>
                             </ul>
-                            <h3>Le Cri de la Santé Aviaire</h3>
-                            <p class="text-size-18">Roselin</p>
+                            <h3>@lang('messages.tem_o31')</h3>
+                            <p class="text-size-18">@lang('messages.tem_o32')</p>
                             <figure class="testimonials_quote mb-0 position-absolute">
                                 <img src="./assets/images/testimonials_quote.png" alt="" class="img-fluid">
                             </figure>

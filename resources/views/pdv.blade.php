@@ -7,10 +7,10 @@
                 <div class="col-lg-2 col-md-12 col-sm-12 col-12 d-lg-block d-none"></div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12 text-center">
                     <div class="banner-section-content">
-                        <h1 data-aos="fade-up">Nos points de vente</h1>
-                        <p data-aos="fade-right">"Explorez nos partenaires de confiance, incluant des animaleries spécialisées, des pharmacies vétérinaires et d'autres revendeurs sélectionnés pour leur engagement envers le bien-être des oiseaux."</p>
+                        <h1 data-aos="fade-up">@lang('messages.pdv')</h1>
+                        <p data-aos="fade-right">@lang('messages.pdv2')</p>
                         <div class="btn_wrapper" data-aos="fade-up">
-                            <span>Platntabird </span><span class="slash">/</span><span class="sub_span"> Points de vente</span>
+                            <span>Platntabird </span><span class="slash">/</span><span class="sub_span"> @lang('messages.pdv')</span>
                         </div>
                         <figure class="sub_banner_content_top_shape mb-0 position-absolute left_right_shape">
                             <img src="./assets/images/sub_banner_content_top_shape.png" alt="" class="img-fluid">
@@ -39,16 +39,14 @@
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="faq_content" data-aos="fade-right">
                     <h2 class="pdv_name_green">Pet Shop </h2>
-                    <h4>Cité des 2000 logements, Bouira.</h4>
-                    <p class="text-size-18">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <h4>@lang('messages.pdv_adress1')</h4>
+                    <p class="text-size-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
-                        </a>
+
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-instagram hover-effect " aria-hidden="true"></i>
                         </a>
@@ -81,16 +79,14 @@
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="faq_content ml-lg-2" data-aos="fade-right">
                     <h2 class="pdv_name_green">Pet Shop </h2>
-                    <h4>Rue Ahmed Boukhlef, Birtouta, Alger.</h4>
-                    <p class="text-size-18">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <h4>@lang('messages.pdv_adress2')</h4>
+                    <p class="text-size-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
-                        </a>
+
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>
                         </a>
@@ -113,16 +109,14 @@
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="faq_content" data-aos="fade-right">
                     <h2 class="pdv_name_green">Pet Shop </h2>
-                    <h4>Cité Les Amandiers, Oran.</h4>
-                    <p class="text-size-18">&nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <h4>@lang('messages.pdv_adress3')</h4>
+                    <p class="text-size-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-twitter hover-effect" aria-hidden="true"></i>
-                        </a>
+
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>
                         </a>
