@@ -78,14 +78,14 @@
      'reponse7' => 'Non, Notre magasin est actuellement spécialisé dans la vente de compléments nutritionnels pour oiseaux.',
      'question8' => 'Quels types de cages recommandez-vous pour les oiseaux?',
      'reponse8' => 'Nous recommandons des cages spacieuses et sécurisées qui offrent suffisamment d’espace pour que l’oiseau puisse se déplacer librement et étendre ses ailes. Assurez-vous que la cage est fabriquée à partir de matériaux sûrs et non toxiques pour la santé de votre oiseau.',
-     'question9' => 'Comment puis-je savoir si mon oiseau a besoin de médicaments?',
-     'reponse9' => 'Les signes courants de maladie chez les oiseaux incluent un plumage ébouriffé, une perte d’appétit, ou des changements dans leur comportement. Si vous observez l’un de ces signes, consultez un vétérinaire aviaire pour un diagnostic précis.',
-     'question10' => 'Comment administrer les médicaments à mon oiseau?',
-     'reponse10' => 'L’administration de médicaments aux oiseaux peut varier selon le type de médicament et la taille de l’oiseau. Suivez toujours les instructions du vétérinaire ou lisez attentivement les indications Onenies avec le médicament.',
-     'question11' => 'Est-ce que vous offrez des conseils sur les soins généraux des oiseaux?',
-     'reponse11' => 'Oui, notre équipe est disponible pour Onenir des conseils sur la nutrition, l’environnement et d’autres aspects du soin des oiseaux. N’hésitez pas à nous contacter pour toute question.',
-     'question12' => 'Quelles sont vos options de livraison?',
-     'reponse12' => 'Nous offrons une variété d’options de livraison pour répondre à vos besoins, y compris la livraison express et standard. Les détails spécifiques sur les frais et les délais de livraison sont disponibles lors du passage à la caisse.',
+     'question9' => 'Offrez-vous des conseils sur l’alimentation des oiseaux ?',
+     'reponse9' => 'Oui, notre équipe est formée pour fournir des conseils d’experts sur l’alimentation équilibrée et nutritive pour les oiseaux. N’hésitez pas à nous contacter pour des recommandations personnalisées pour votre ami à plumes.',
+     'question10' => 'Quelle est votre politique de retour ?',
+     'reponse10' => 'Nous acceptons les retours dans les 30 jours suivant l’achat, sous réserve que les produits soient dans leur emballage d’origine et dans un état neuf. Veuillez consulter notre politique de retour complète pour plus de détails.',
+     'question11' => 'Est-ce que vous vendez des oiseaux ?',
+     'reponse11' => 'Non, nous ne vendons pas d’oiseaux. Notre boutique se spécialise dans la vente de produits et de médicaments pour les oiseaux, ainsi que dans la fourniture de conseils et d’assistance pour leur bien-être.',
+     'question12' => 'Est-ce que vos médicaments conviennent à toutes les espèces d’oiseaux ?',
+     'reponse12' => 'Oui, nos médicaments sont formulés pour convenir à une variété d’espèces d’oiseaux, y compris les perroquets, les perruches, les canaris, et plus encore. Cependant, il est toujours recommandé de consulter un vétérinaire aviaire pour un diagnostic précis et des recommandations spécifiques à votre oiseau.',
      'pdv_bienvenue' => 'Bienvenue dans nos magasins',
      'pdv_adress1' => 'Cité des 2000 logements, Bouira.',
      'pdv_adress2' => 'Rue Ahmed Boukhlef, Birtouta, Alger.',
@@ -170,8 +170,7 @@
      matières grasses brutes (&lt;1%), cellulose brute (&lt;1%), méthionine (0%), lysine
      (0%), calcium (&lt;5%), phosphore (&lt;2%), magnésium (&lt;0,5%), sodium (0,02%)',
      'eauu' => 'Eau',
-
-
+     'adresse_descreption' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 
 
      

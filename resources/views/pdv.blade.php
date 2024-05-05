@@ -80,7 +80,7 @@
                 <div class="faq_content ml-lg-2" data-aos="fade-right">
                     <h2 class="pdv_name_green">Pet Shop </h2>
                     <h4 @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.pdv_adress2')</h4>
-                    <p class="text-size-18" @if(app()->getLocale() === 'ar') dir="rtl" @endif>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <p class="text-size-18" @if(app()->getLocale() === 'ar') dir="rtl" @endif> @lang('messages.adresse_descreption')</p>
 
                     <div class="team_social_icons">
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
