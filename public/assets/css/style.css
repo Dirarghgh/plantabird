@@ -1878,6 +1878,10 @@ background: linear-gradient(114deg, rgba(255,239,0,1) 0%, rgba(34,193,195,1) 100
 .mission_section .mission_box {
     margin-bottom: 50px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .mission_section .mission_box figure {
     display: flex;
@@ -1888,7 +1892,6 @@ background: linear-gradient(114deg, rgba(255,239,0,1) 0%, rgba(34,193,195,1) 100
     line-height: 123px;
     border-radius: 100px;
     margin-bottom: 30px;
-    margin-left: 60px;
     background-color: var(--e-global-color-white);
     transition: all 0.3s ease-in-out;
 }
