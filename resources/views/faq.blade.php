@@ -160,19 +160,6 @@
                                 </div>
                                 </div>
                             </div>
-                            <div class="accordion-card">
-                                <div class="card-header" id="headingTwelve">
-                                    <i class="fa-solid fa-question"></i>
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                                    @lang('messages.question8')
-                                    </button>
-                                </div>
-                                <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve">
-                                <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse8')</p>
-                                </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -192,19 +179,6 @@
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive">
                                 <div class="card-body">
                                     <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse9')</p>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="accordion-card">
-                                <div class="card-header" id="headingSix">
-                                    <i class="fa-solid fa-question"></i>
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    @lang('messages.question10')
-                                    </button>
-                                </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix">
-                                <div class="card-body">
-                                    <p class="text-size-16 text-left mb-0 p-0" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.reponse10')</p>
                                 </div>
                                 </div>
                             </div>

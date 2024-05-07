@@ -5,7 +5,7 @@
             <div class="row mb-0">
                 <div class="col-lg-5 col-md-12 col-sm-12 col-12 text-lg-left text-center">
                     <div class="banner-section-content">
-                        <h1  data-aos="fade-up " @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.home_hero1')<span></span> @lang('messages.home_hero2')</h1>
+                        <h1  data-aos="fade-up " @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.home_hero1') <span></span> @lang('messages.home_hero2')</h1>
                         <p data-aos="fade-right" @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.home_hero3')</p>
                         <div class="" data-aos="fade-up">
                             <a class="text-decoration-none default-btn" href="/about">@lang('messages.plus')</a>
@@ -16,8 +16,8 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 col-12  ">
-                    <div class="banner-section-image position-relative ">
-                        <figure class="banner-image mb-0 left_right_shape ">
+                    <div class="banner-section-image mb-0 position-relative ">
+                        <figure class="banner-image mb-0 left_right_shape  ">
                             <img src="./assets/images/designs/2.png" alt="" class="img-fluid">
                         </figure> 
                         <figure class="banner-background-image mb-0 position-absolute">
@@ -31,7 +31,7 @@
                         </figure> 
                         <div class="box vaccination_box position-absolute hover-effect">
                             <div class="icon-container-rounded">
-                                <i class="fa-solid fa-leaf fa-2x"></i>
+                                <i class="fa-solid fa-face-smile-beam fa-2x"></i>
                             </div>
                             <div class="box_content_wrapper">
                                 <p class="box_heading text-size-16 mb-0">@lang('messages.hone_p31')<br>@lang('messages.hone_p32')</p>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="box satisfied_client_box position-absolute hover-effect">
                             <div class="icon-container-rounded">
-                                <i class="fa-solid fa-face-smile-beam fa-2x"></i>
+                                <i class="fa-solid fa-leaf fa-2x"></i>
                             </div>
                             <div class="box_content_wrapper">
                                 <p class="box_heading text-size-16 mb-0">@lang('messages.hone_p11')<br>@lang('messages.hone_p12')</p>

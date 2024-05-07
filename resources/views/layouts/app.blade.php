@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <title>Plantabird</title>
+        <title>Plantabird : L’expert en phytothérapie chez les oiseaux</title>
         <!-- /SEO Ultimate -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
         <meta charset="utf-8">

@@ -189,6 +189,9 @@
                             </li>
                             <li class="mail">
                                 <a href="mailto:Plantabird@gmail.com" class="text-decoration-none">Plantabird@gmail.com</a>
+                                <a href="mailto:Zeghar@plantabird.com" class="text-decoration-none">Zeghar@plantabird.com</a>
+                                <a href="mailto:Abdat@plantabird.com" class="text-decoration-none">Abdat@plantabird.com</a>
+
                             </li>
                         </ul>
                         <ul class="list-unstyled">

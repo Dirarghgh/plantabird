@@ -101,14 +101,19 @@
                                     </div>
                                     <div class="accordion-card">
                                         <div class="card-header" id="headingP1-2">
-                                            <i class="fa-solid fa-dove" style="color: #ba4140;"></i>
+                                            <i class="fa-solid fa-pills" style="color: #ba4140;"></i>
                                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsP1-2" aria-expanded="false" aria-controls="collapsgP2">
                                             @lang('messages.espece')
                                             </button>
                                         </div>
                                         <div id="collapsP1-2" class="collapse" aria-labelledby="headingP1-2">
                                         <div class="card-body">
-                                            <p class="text-size-16 text-left mb-0 p-0">@lang('messages.espece1')</p>
+                                            <p class="text-size-16 text-left mb-0 p-0">
+                                                <ul class="py-0 my-0 px-0">
+                                                    <li><p class="mb-0 pt-0"> @lang('messages.indication_p11')</p></li>
+                                                    <li><p class="py-0 my-0">@lang('messages.indication_p12')</p></li>
+                                                </ul>
+                                            </p>
                                         </div>
                                         </div>
                                     </div>
@@ -190,14 +195,20 @@
                                     </div>
                                     <div class="accordion-card">
                                         <div class="card-header" id="headingP2-2">
-                                            <i class="fa-solid fa-dove" style="color: #a2a2a2;"></i>
+                                            <i class="fa-solid fa-pills" style="color: #a2a2a2;"></i>
                                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseP2-2" aria-expanded="false" aria-controls="collapseP2-2">
                                                 @lang('messages.espece')
                                             </button>
                                         </div>
                                         <div id="collapseP2-2" class="collapse" aria-labelledby="headingP2-2">
                                         <div class="card-body">
-                                            <p class="text-size-16 text-left mb-0 p-0">@lang('messages.espece1')</p>
+                                            <p class="text-size-16 text-left mb-0 p-0">
+                                                <ul class="py-0 my-0 px-0">
+                                                    <li><p class="mb-0 pt-0"> @lang('messages.indication_p21')</p></li>
+                                                    <li><p class="py-0 my-0">@lang('messages.indication_p22')</p></li>
+                                                    <li><p class="py-0 my-0">@lang('messages.indication_p22')</p></li>
+                                                </ul>
+                                            </p>
                                         </div>
                                         </div>
                                     </div>
@@ -279,14 +290,19 @@
                                     </div>
                                     <div class="accordion-card">
                                         <div class="card-header" id="headingP3-2">
-                                            <i class="fa-solid fa-dove" style="color: #836a54;"></i>
+                                            <i class="fa-solid fa-pills" style="color: #836a54;"></i>
                                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseP3-2" aria-expanded="false" aria-controls="collapseP3-2">
                                                 @lang('messages.espece')
                                             </button>
                                         </div>
                                         <div id="collapseP3-2" class="collapse" aria-labelledby="headingP3-2">
                                         <div class="card-body">
-                                            <p class="text-size-16 text-left mb-0 p-0">@lang('messages.espece1')</p>
+                                            <p class="text-size-16 text-left mb-0 p-0">
+                                                <ul class="py-0 my-0 px-0">
+                                                    <li><p class="mb-0 pt-0"> @lang('messages.indication_p31')</p></li>
+                                                    <li><p class="py-0 my-0">@lang('messages.indication_p32')</p></li>
+                                                </ul>
+                                            </p>
                                         </div>
                                         </div>
                                     </div>
@@ -368,14 +384,21 @@
                                     </div>
                                     <div class="accordion-card">
                                         <div class="card-header" id="headingP4-2">
-                                            <i class="fa-solid fa-dove" style="color: #466535;"></i>
+                                            <i class="fa-solid fa-pills" style="color: #466535;"></i>
                                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseP4-2" aria-expanded="false" aria-controls="collapseP4-2">
                                                 @lang('messages.espece')
                                             </button>
                                         </div>
                                         <div id="collapseP4-2" class="collapse" aria-labelledby="headingP4-2">
                                         <div class="card-body">
-                                            <p class="text-size-16 text-left mb-0 p-0">@lang('messages.espece1')</p>
+                                            <p class="text-size-16 text-left mb-0 p-0">
+                                                <ul class="py-0 my-0 px-0">
+                                                    <li><p class="mb-0 pt-0"> @lang('messages.indication_p41')</p></li>
+                                                    <li><p class="py-0 my-0">@lang('messages.indication_p42')</p></li>
+                                                    <li><p class="py-0 my-0">@lang('messages.indication_p43')</p></li>
+                                                    <li><p class="py-0 my-0">@lang('messages.indication_p44')</p></li>
+                                                </ul>
+                                            </p>
                                         </div>
                                         </div>
                                     </div>
@@ -426,8 +449,7 @@
                         <h2 class="">TRICHOM - 30ml</h2>
                         <h3>@lang('messages.compement_digestif')</h3>
                         <p>@lang('messages.ceproduit5')</p>
-                        <p>•	@lang('messages.ceproduit51')</p>
-                        <p>•	@lang('messages.ceproduit52')</p>
+                        <p>@lang('messages.ceproduit51')</p>
                         <div class="accordian-product" >
                             <div class="accordian-inner" data-aos="fade-up">
                                 <div id="accordion2">
@@ -459,14 +481,20 @@
                                     </div>
                                     <div class="accordion-card">
                                         <div class="card-header" id="headingP5-2">
-                                            <i class="fa-solid fa-dove" style="color: #583d44;"></i>
+                                            <i class="fa-solid fa-pills" style="color: #583d44;"></i>
                                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseP5-2" aria-expanded="false" aria-controls="collapseP5-2">
                                                 @lang('messages.espece')
                                             </button>
                                         </div>
                                         <div id="collapseP5-2" class="collapse" aria-labelledby="headingP5-2">
                                         <div class="card-body">
-                                            <p class="text-size-16 text-left mb-0 p-0">@lang('messages.espece1')</p>
+                                            <p class="text-size-16 text-left mb-0 p-0">
+                                                <ul class="py-0 my-0 px-0">
+                                                    <li><p class="mb-0 pt-0">@lang('messages.indication_p51')</p></li>
+                                                    <li><p class="py-0 my-0">@lang('messages.indication_p52')</p></li>
+                                                    <li><p class="py-0 my-0">@lang('messages.indication_p53')</p></li>
+                                                </ul>
+                                            </p>
                                         </div>
                                         </div>
                                     </div>
@@ -546,14 +574,19 @@
                                     </div>
                                     <div class="accordion-card">
                                         <div class="card-header" id="headingP6-2">
-                                            <i class="fa-solid fa-dove" style="color: #3d89bf;"></i>
+                                            <i class="fa-solid fa-pills" style="color: #3d89bf;"></i>
                                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseP6-2" aria-expanded="false" aria-controls="collapseP6-2">
                                                 @lang('messages.espece')
                                             </button>
                                         </div>
                                         <div id="collapseP6-2" class="collapse" aria-labelledby="headingP6-2">
                                         <div class="card-body">
-                                            <p class="text-size-16 text-left mb-0 p-0">@lang('messages.espece1')</p>
+                                            <p class="text-size-16 text-left mb-0 p-0">
+                                                <ul class="py-0 my-0 px-0">
+                                                    <li><p class="mb-0 pt-0">@lang('messages.indication_p61')</p></li>
+                                                    <li><p class="py-0 my-0">@lang('messages.indication_p62')</p></li>
+                                                </ul>
+                                            </p>
                                         </div>
                                         </div>
                                     </div>

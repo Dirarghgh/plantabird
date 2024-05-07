@@ -84,6 +84,9 @@
                             <div class="contact_info_box_content_wrapper">
                                 <h3>@lang('messages.mail')</h3>
                                 <p class="mb-0"><a href="mailto:Plantabird@gmail.com" class="text-decoration-none">Plantabird@gmail.com</a></p>
+                                <p class="mb-0"><a href="mailto:Zeghar@plantabird.com" class="text-decoration-none">Zeghar@plantabird.com</a></p>
+                                <p class="mb-0"><a href="mailto:Abdat@plantabird.com" class="text-decoration-none">Abdat@plantabird.com</a></p>
+
                             </div>
                         </div>
                     </div>
@@ -94,7 +97,7 @@
                     <h6>@lang('messages.contantez_nous')</h6>
                     <h2>@lang('messages.contacts3')</h2>
                     <p class="text-size-18">@lang('messages.contacts4')</p>
-                    <form id="contactpage" method="POST" action="./contact-form.php">
+                    <form id="contactpage" action="">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <div class="form-group mb-0">
