@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="faq_content {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}" data-aos="fade-right" >
-                    <h2 class="pdv_name_green">Pet Shop </h2>
+                    <h2 class="pdv_name_green">@lang('messages.pdv_b1') </h2>
                     <h4 @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.pdv_adress1')</h4>
                     <p class="text-size-18" @if(app()->getLocale() === 'ar') dir="rtl" @endif>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
@@ -46,9 +46,8 @@
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
                         </a>
-
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-instagram hover-effect " aria-hidden="true"></i>
+                        <a href="tel:+213671956068" class="text-decoration-none">
+                            <i class="fa-solid fa-phone hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.google.com/maps/dir/?api=1&destination=36.645392666286%2C2.9955031700211" class="text-decoration-none">
                             <i class="fa-solid fa-map hover-effect mr-0" aria-hidden="true"></i>
@@ -73,12 +72,12 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="pdv-image ">
-                    <figure><img src="./assets/images/point_de_vente.jpg" alt="" class="img-fluid"></figure>
+                    <figure><img src="./assets/images/point_de_vente_2.jpg" alt="" class="img-fluid"></figure>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="faq_content ml-lg-2" data-aos="fade-right">
-                    <h2 class="pdv_name_green">Pet Shop </h2>
+                    <h2 class="pdv_name_green">@lang('messages.pdv_b2')</h2>
                     <h4 @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.pdv_adress2')</h4>
                     <p class="text-size-18" @if(app()->getLocale() === 'ar') dir="rtl" @endif> @lang('messages.adresse_descreption')</p>
 
@@ -87,8 +86,8 @@
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
                         </a>
 
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>
+                        <a href="tel:+213558500683" class="text-decoration-none">
+                            <i class="fa-solid fa-phone hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.google.com/maps/dir/?api=1&destination=36.645392666286%2C2.9955031700211" class="text-decoration-none">
                             <i class="fa-solid fa-map hover-effect mr-0" aria-hidden="true"></i>
@@ -108,7 +107,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="faq_content {{ app()->getLocale() === 'ar' ? 'rtl-text-align' : '' }}" data-aos="fade-right">
-                    <h2 class="pdv_name_green">Pet Shop </h2>
+                    <h2 class="pdv_name_green">@lang('messages.pdv_b3') </h2>
                     <h4 @if(app()->getLocale() === 'ar') dir="rtl" @endif>@lang('messages.pdv_adress3')</h4>
                     <p class="text-size-18" @if(app()->getLocale() === 'ar') dir="rtl" @endif>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
@@ -116,9 +115,8 @@
                         <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
                             <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
                         </a>
-
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-instagram hover-effect" aria-hidden="true"></i>
+                        <a href="tel:+213671956068" class="text-decoration-none">
+                            <i class="fa-solid fa-phone hover-effect" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.google.com/maps/dir/?api=1&destination=36.645392666286%2C2.9955031700211" class="text-decoration-none">
                             <i class="fa-solid fa-map hover-effect mr-0" aria-hidden="true"></i>
@@ -128,7 +126,7 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="pdv-image ">
-                    <figure><img src="./assets/images/point_de_vente.jpg" alt="" class="img-fluid"></figure>
+                    <figure><img src="./assets/images/point_de_vente_3.jpg" alt="" class="img-fluid"></figure>
                 </div>
             </div>
         </div>

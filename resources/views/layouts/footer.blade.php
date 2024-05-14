@@ -153,7 +153,7 @@
                         <ul class="list-unstyled">
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <a href="/home">@lang('messages.accuil')</a>
+                                <a href="/home">@lang('messages.Accueil')</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-angle-right"></i>
