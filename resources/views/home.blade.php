@@ -433,9 +433,6 @@
                     <h3>@lang('messages.pdv_b1')</h3>
                     <p class="text-size-18">@lang('messages.pdv_adress1')</p>
                     <div class="team_social_icons">
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
-                        </a>
                         <a href="tel:+213671956068" class="text-decoration-none">
                             <i class="fa-solid fa-phone hover-effect" aria-hidden="true"></i>
                         </a>
@@ -448,13 +445,10 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                 <div class="team_box">
-                    <figure><img src="./assets/images/point_de_vente_2.jpg" alt="" class="img-fluid"></figure>
+                    <figure><img src="./assets/images/point_de_vente_3.jpg" alt="" class="img-fluid"></figure>
                     <h3>@lang('messages.pdv_b2')</h3>
                     <p class="text-size-18">@lang('messages.pdv_adress2')</p>
                     <div class="team_social_icons">
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
-                        </a>
                         <a href="tel:+213558500683" class="text-decoration-none">
                             <i class="fa-solid fa-phone hover-effect" aria-hidden="true"></i>
                         </a>
@@ -467,13 +461,10 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                 <div class="team_box">
-                    <figure><img src="./assets/images/point_de_vente_3.jpg" alt="" class="img-fluid"></figure>
+                    <figure><img src="./assets/images/point_de_vente_2.jpg" alt="" class="img-fluid"></figure>
                     <h3>@lang('messages.pdv_b3')</h3>
                     <p class="text-size-18">@lang('messages.pdv_adress3')</p>
                     <div class="team_social_icons">
-                        <a href="https://www.facebook.com/profile.php?id=61555825628635" class="text-decoration-none">
-                            <i class="fa-brands fa-facebook-f hover-effect" aria-hidden="true"></i>
-                        </a>
                         <a href="tel:+213671956068" class="text-decoration-none">
                             <i class="fa-solid fa-phone hover-effect" aria-hidden="true"></i>
                         </a>

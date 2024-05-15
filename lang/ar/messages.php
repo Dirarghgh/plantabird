@@ -169,7 +169,7 @@
 'Chlorure_magnesium' => 'كلوريد المغنيسيوم، كلوريد الصوديوم',
 'Constituants_analytiques' => 'المكونات التحليلية: الرماد الخام (&lt;1%)، البروتين الخام (&lt;1%)، الدهون الخام (&lt;1%)، الألياف الخام (&lt;1%)، الميثيونين (0%)، الليسين (0%)، الكالسيوم (&lt;5%)، الفوسفور (&lt;2%)، المغنيسيوم (&lt;0.5%)، الصوديوم (0.02%)',
 'eauu' => 'الماء',
-'adresse_descreption' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+'adresse_descreption' => 'نحن مسرورون بتقديم شبكة واسعة من نقاط البيع المنتشرة عبر مناطق متعددة، بهدف جعل تحصيل منتجات Plantabird أكثر إمكانية وسهولة بالنسبة لكم. تشمل التزامنا بجودة الخدمة أيضًا توصيل جميع منتجاتنا مباشرة إلى باب منزلكم. لا تترددوا في التواصل مع الممثل المخصص لكل نقطة بيع لأي مساعدة إضافية.',
 'indication_p11' => 'مضاد الأكسدة للجهاز الهضمي',
 'indication_p12' => 'إدارة عوامل الخطر لالتهاب الأمعاء الناخر (كلوستريديوسيس)',
 'indication_p21' => 'يحد من تأثير الإشريكية القولونية وعدوى المكورات المعوية',

@@ -165,7 +165,7 @@
      matières grasses brutes (&lt;1%), cellulose brute (&lt;1%), méthionine (0%), lysine
      (0%), calcium (&lt;5%), phosphore (&lt;2%), magnésium (&lt;0,5%), sodium (0,02%)',
      'eauu' => 'Eau',
-     'adresse_descreption' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+     'adresse_descreption' => 'Nous sommes heureux de vous offrir un réseau étendu de points de vente répartis à travers diverses régions, dans le but de rendre l’acquisition des produits Plantabird plus accessible et pratique pour vous. Notre engagement envers la qualité de service inclut également la livraison de tous nos produits directement à votre porte. N’hésitez pas à prendre contact avec le représentant dédié à chaque point de vente pour toute assistance supplémentaire.',
      'indication_p11' => 'Antioxydant digestif',
      'indication_p12' => 'Gestion des facteurs de risque attribuables aux entérites nécrotiques (clostridioses)',
      'indication_p21' => 'Limite l’impact des colibacilloses (E. coli) et des infections à entérocoques',
